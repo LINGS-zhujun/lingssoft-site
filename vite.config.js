@@ -1,7 +1,6 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import { fileURLToPath, URL } from 'url'
-import jsx from 'acorn-jsx'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -15,8 +14,8 @@ export default defineConfig({
       context: fileURLToPath(new URL('./src/context', import.meta.url)),
       pages: fileURLToPath(new URL('./src/pages', import.meta.url)),
       examples: fileURLToPath(new URL('./src/examples', import.meta.url)),
-      routes: fileURLToPath(new URL('./src/routes.jsx', import.meta.url)),
-      'footer.routes': fileURLToPath(new URL('./src/footer.routes.jsx', import.meta.url)),
+      routes: fileURLToPath(new URL('./src/routes/routes.jsx', import.meta.url)),
+      'footer.routes': fileURLToPath(new URL('./src/routes/footer.routes.jsx', import.meta.url)),
       App: fileURLToPath(new URL('./src/App.jsx', import.meta.url)),
     },
   },
