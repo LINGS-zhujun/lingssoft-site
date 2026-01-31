@@ -46,6 +46,10 @@ export default {
           route: "/pages/company/solutions",
         },
         {
+          name: "└ AI DevOps",
+          route: "/pages/items/devops",
+        },
+        {
           translationKey: "menu.pricing",
           route: "/pages/company/pricing",
         },

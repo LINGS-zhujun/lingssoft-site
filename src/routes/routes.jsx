@@ -54,6 +54,7 @@ const Gdpr = lazy(() => import("layouts/pages/support/gdpr"));
 const License = lazy(() => import("layouts/pages/support/license"));
 const CustomDev = lazy(() => import("layouts/pages/support/custom-development"));
 const Sponsorships = lazy(() => import("layouts/pages/support/sponsorships"));
+const EcoAIDevOpsPlatform = lazy(() => import("pages/Items/DevOps"));
 
 const routes = [
   {
@@ -62,9 +63,20 @@ const routes = [
     icon: <Icon>dashboard</Icon>,
     collapse: [
       {
+        name: "solutions",
         translationKey: "menu.solutions",
-        route: "/pages/company/solutions",
-        component: Solutions,
+        collapse: [
+          {
+            translationKey: "menu.solutions",
+            route: "/pages/company/solutions",
+            component: Solutions,
+          },
+          {
+            name: "AI DevOps",
+            route: "/pages/items/devops",
+            component: EcoAIDevOpsPlatform,
+          },
+        ],
       },
       {
         translationKey: "menu.pricing",

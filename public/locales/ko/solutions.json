@@ -5,7 +5,7 @@
         "description": "LINGSSOFT는 클라우드 의존 없이, 당신의 데이터가 온전히 당신의 것인 세상을 만듭니다. 강력한 보안과 AI 기술이 결합된 로컬 중심의 혁신을 경험하세요."
     },
     "ai": {
-        "title": "Eco AI Devops platform",
+        "title": "Eco AI DevOps Platform",
         "description": "오토코딩, AI 에이전트, 그리고 DevOps가 하나로 합쳐진 올인원 개발 플랫폼입니다. 외부 서버로 코드가 유출될 걱정 없이, 로컬 환경에서 강력한 AI 지원을 받으며 개발하세요.",
         "features": [
             "AI 에이전트 기반 자동 코딩",
