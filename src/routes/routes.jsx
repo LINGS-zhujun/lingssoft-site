@@ -65,6 +65,7 @@ const routes = [
       {
         name: "solutions",
         translationKey: "menu.solutions",
+        dropdown: true,
         collapse: [
           {
             translationKey: "menu.solutions",
