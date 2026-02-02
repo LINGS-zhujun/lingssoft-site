@@ -63,12 +63,11 @@ const routes = [
     icon: <Icon>dashboard</Icon>,
     collapse: [
       {
-        name: "All Products",
         translationKey: "menu.solutions",
         dropdown: true,
         collapse: [
           {
-            translationKey: "menu.solutions",
+            name: "All Products",
             route: "/pages/company/solutions",
             component: Solutions,
           },
