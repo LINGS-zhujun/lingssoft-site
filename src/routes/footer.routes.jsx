@@ -46,7 +46,7 @@ export default {
           route: "/pages/company/solutions",
         },
         {
-          name: "└ ECO AI DevOps",
+          translationKey: "menu.ai_devops",
           route: "/pages/items/devops",
         },
         {
