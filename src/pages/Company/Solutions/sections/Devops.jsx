@@ -25,7 +25,7 @@ import MKBadge from "components/MKBadge";
 import { useTranslation } from "react-i18next";
 import { useThemeMode } from "context/ThemeModeContext";
 
-function AI() {
+function Devops() {
     const { t } = useTranslation("solutions");
     const { mode } = useThemeMode();
     const isDark = mode === "dark";
@@ -36,7 +36,7 @@ function AI() {
                 <Grid container alignItems="center" justifyContent="center">
                     <Grid item xs={12} lg={6} sx={{ mb: { xs: 5, lg: 0 } }}>
                         <MKBadge
-                            badgeContent="AI"
+                            badgeContent="DevOps"
                             variant="contained"
                             color="info"
                             container
@@ -92,4 +92,4 @@ function AI() {
     );
 }
 
-export default AI;
+export default Devops;

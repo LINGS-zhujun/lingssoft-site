@@ -29,7 +29,7 @@ import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import DefaultFooter from "examples/Footers/DefaultFooter";
 
 // Solutions page sections
-import AI from "pages/Company/Solutions/sections/AI";
+import Devops from "pages/Company/Solutions/sections/Devops";
 import Security from "pages/Company/Solutions/sections/Security";
 import Education from "pages/Company/Solutions/sections/Education";
 
@@ -112,7 +112,7 @@ function Solutions() {
                     color: isDark ? "#ffffff" : "inherit", // Dynamic text color base
                 }}
             >
-                <AI />
+                <Devops />
                 <Security />
                 <Education />
             </Card>
