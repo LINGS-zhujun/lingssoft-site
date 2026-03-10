@@ -20,6 +20,10 @@ import footerRoutes from "routes/footer.routes";
 
 import { useThemeMode } from "context/ThemeModeContext";
 
+// DevOps sections
+import Themes from "pages/Items/DevOps/sections/Themes";
+import Revenue from "pages/Items/DevOps/sections/Revenue";
+
 const EcoAIDevOpsPlatform = () => {
   const { t } = useTranslation('solutions');
   const { mode } = useThemeMode();
@@ -86,27 +90,8 @@ const EcoAIDevOpsPlatform = () => {
           color: isDark ? "#ffffff" : "inherit", // Dynamic text color base
         }}
       >
-        <MKBox component="section" py={6}>
-          <Container>
-            <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-              {(t('ai.features', { returnObjects: true }) || []).map((feature, index) => (
-                <div key={index} className="pt-6">
-                  <div className={`flow-root ${isDark ? 'bg-gray-800' : 'bg-gray-50'} rounded-lg px-6 pb-8 shadow-sm h-full hover:shadow-md transition-shadow duration-300`}>
-                    <div className="-mt-6">
-                      <div className="inline-flex items-center justify-center p-3 bg-indigo-600 rounded-md shadow-lg">
-                        {/* Lightning icon for DevOps/Speed */}
-                        <svg className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                        </svg>
-                      </div>
-                      <h3 className={`mt-8 text-lg font-medium ${isDark ? 'text-white' : 'text-gray-900'} tracking-tight`}>{feature}</h3>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </Container>
-        </MKBox>
+        <Themes />
+        <Revenue />
       </Card>
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />

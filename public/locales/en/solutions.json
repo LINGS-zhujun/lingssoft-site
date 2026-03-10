@@ -6,12 +6,47 @@
     },
     "ai": {
         "title": "Eco AI DevOps Platform",
-        "description": "An all-in-one development platform combining Auto-coding, AI Agents, and DevOps. Develop with powerful AI support locally, without worrying about code leakage.",
+        "description": "An on-premise specialized AI-driven DevOps solution promising sustainable energy efficiency and data security.",
         "features": [
-            "AI Agent-based Auto-coding",
-            "Local LLM support (Works in air-gapped networks)",
-            "Integrated CI/CD & Infrastructure Management"
-        ]
+            "Energy Efficiency - ECO Resource Management",
+            "Robust Data Sovereignty - On-premise",
+            "DevOps Innovation - AI DevOps"
+        ],
+        "themes": {
+            "energy": {
+                "title": "Energy Efficiency - ECO Resource Management",
+                "description": "Utilizes cutting-edge ECO Resource Management technology to efficiently allocate computing resources and dramatically reduce power consumption. Optimizes infra costs and provides a sustainable digital environment."
+            },
+            "sovereignty": {
+                "title": "Data Sovereignty - On-premise Environment",
+                "description": "Completely control the flow of data within your organization. By fundamentally blocking any possibility of external leaks, we securely protect your most valuable asset—your data."
+            },
+            "usability": {
+                "title": "DevOps Innovation - AI DevOps",
+                "description": "Innovates complex development pipelines and infrastructure configurations through AI-driven automation. We build an environment where developers can focus solely on creating core value."
+            }
+        },
+        "revenue": {
+            "title": "Our Partnership Approach",
+            "items": [
+                {
+                    "title": "Integrated Solution Supply",
+                    "description": "From field-ready hardware-integrated appliances to optimized software packages, we offer integrated supply solutions tailored to your enterprise size."
+                },
+                {
+                    "title": "Delivering Sustainable Value",
+                    "description": "Lower the initial introduction burden through flexible subscription licenses and experience the latest AI technology that is continuously updated throughout its lifecycle."
+                },
+                {
+                    "title": "Specialized Tech Partnership",
+                    "description": "Going beyond simple support, we accompany you on your successful digital transformation journey through custom implementations optimized for your environment and dedicated engineer consulting."
+                },
+                {
+                    "title": "Trust-Based Market Value",
+                    "description": "We offer proven value in public and financial markets where security and trust are essential, positioning ourselves as the standard for next-generation local AI technology."
+                }
+            ]
+        }
     },
     "security": {
         "title": "Enterprise Security Suite",
