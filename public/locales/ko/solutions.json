@@ -14,12 +14,11 @@
                     "label": "ECO 자원 관리",
                     "title": "에너지 효율의 새로운 기준",
                     "description": "최첨단 기술로 전력 소비를 최소화하고 디지털 탄소 중립을 실현합니다.",
-                    "cards": [
-                        { "title": "최적 배분", "description": "컴퓨팅 자원의 지능적 배분" },
-                        { "title": "저전력 운영", "description": "운영 비용 절감" },
-                        { "title": "탄소 중립", "description": "지속 가능한 경영 지원" }
-                    ]
-                },
+                                            "cards": [
+                                                { "title": "유휴 모드 제어 알고리즘", "description": "컴퓨팅 자원의 지능적 배분" },
+                                                { "title": "리소스 스케줄링", "description": "운영 비용 절감" },
+                                                { "title": "프로세스 스케줄링", "description": "지속 가능한 경영 지원" }
+                                            ]                },
                 {
                     "id": "security",
                     "label": "온프레미스 혁신",

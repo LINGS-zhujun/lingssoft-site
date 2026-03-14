@@ -14,12 +14,11 @@
                     "label": "ECO Resource Management",
                     "title": "A New Standard for Energy Efficiency",
                     "description": "Minimize power consumption and realize digital carbon neutrality with cutting-edge technology.",
-                    "cards": [
-                        { "title": "Optimal Allocation", "description": "Intelligent allocation of resources" },
-                        { "title": "Low power", "description": "Reduce operating costs" },
-                        { "title": "Carbon Neutral", "description": "Support sustainable management" }
-                    ]
-                },
+                                            "cards": [
+                                                { "title": "Idle mode control algorithm", "description": "Intelligent allocation of resources" },
+                                                { "title": "Resource scheduling", "description": "Reduce operating costs" },
+                                                { "title": "Process scheduling", "description": "Support sustainable management" }
+                                            ]                },
                 {
                     "id": "security",
                     "label": "On-premise Innovation",

@@ -13,12 +13,11 @@
                     "label": "ECO 资源管理",
                     "title": "能源效率的新标准",
                     "description": "通过尖端技术实现功耗最小化，助力数字化碳中和。",
-                    "cards": [
-                        { "title": "优化分配", "description": "计算资源的智能分配" },
-                        { "title": "低功耗", "description": "降低运营成本" },
-                        { "title": "碳中和", "description": "支持可持续经营" }
-                    ]
-                },
+                                            "cards": [
+                                                { "title": "空闲模式控制算法", "description": "计算资源的智能分配" },
+                                                { "title": "资源调度", "description": "降低运营成本" },
+                                                { "title": "进程调度", "description": "支持可持续经营" }
+                                            ]                },
                 {
                     "id": "security",
                     "label": "本地部署创新",
