@@ -95,9 +95,9 @@
                     "title": "Perfect Process Monitoring",
                     "description": "Monitor all computing resources and network flows in real-time to detect abnormal behavior immediately.",
                     "cards": [
-                        { "title": "Process Management", "description": "Block unauthorized processes" },
-                        { "title": "Network Analysis", "description": "Monitor external communication" },
-                        { "title": "Threat Detection", "description": "Real-time security alerts" }
+                        { "title": "Process Management", "description": "Empowers system-core level process tracking to fundamentally block unauthorized executions and proactively defend against potential malicious activities." },
+                        { "title": "Network Analysis", "description": "Analyzes all packet flows between internal infra and external networks to detect data leakage attempts and intelligently monitor unauthorized communications." },
+                        { "title": "Threat Detection", "description": "Leverages an intelligent engine to capture signs of intrusion or exploits in real-time, providing immediate alerts and response guides to minimize risk." }
                     ]
                 },
                 {
@@ -106,9 +106,9 @@
                     "title": "Enterprise-grade DRM",
                     "description": "Provide strong encryption and access control throughout the lifecycle of critical documents.",
                     "cards": [
-                        { "title": "Document Encryption", "description": "Prevent data leakage" },
-                        { "title": "Access Control", "description": "Granular user permissions" },
-                        { "title": "Traceability", "description": "Transparent history management" }
+                        { "title": "Document Encryption", "description": "Applies automated, high-strength encryption from the moment of creation, ensuring data remains protected even in the event of unauthorized external disclosure." },
+                        { "title": "Access Control", "description": "Strictly governs detailed document actions—read, edit, print—based on user roles and seniority to prevent misuse of sensitive internal information." },
+                        { "title": "Traceability", "description": "Records and visualizes the complete lifecycle of critical documents, including creation, movement, and deletion, to maximize transparency in data management." }
                     ]
                 },
                 {
@@ -117,9 +117,9 @@
                     "title": "Integrated Log Analysis",
                     "description": "Centralize all security logs internally to maximize compliance and post-analysis efficiency.",
                     "cards": [
-                        { "title": "Log Integration", "description": "Collect distributed security data" },
-                        { "title": "Internal Isolation", "description": "Block log external leakage" },
-                        { "title": "Detailed Analysis", "description": "Data for post-investigation" }
+                        { "title": "Log Integration", "description": "Aggregates vast security log data scattered across servers, networks, and endpoints into a single local system, providing a comprehensive security dashboard." },
+                        { "title": "Internal Isolation", "description": "Securely isolates and stores all sensitive security data within the enterprise’s independent, closed repository—never on the cloud—to fully safeguard information sovereignty." },
+                        { "title": "Analysis", "description": "Provides advanced search and visualization tools to accurately identify root causes during incidents and generate rich analytical reports for compliance." }
                     ]
                 }
             ]
