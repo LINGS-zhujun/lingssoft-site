@@ -17,7 +17,7 @@ import MKBox from "components/MKBox";
 import SliderHeader from "pages/Company/Pricing/components/Header";
 
 // Images
-import bg1 from "assets/images/bg_rental.jpeg";
+import bg1 from "assets/images/bg-rental.jpeg";
 import bg2 from "assets/images/bg-presentation.jpg";
 import bg3 from "assets/images/bg-coworking.jpeg";
 
