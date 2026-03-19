@@ -1,5 +1,4 @@
 
-import React, { useMemo } from "react";
 // SwiperJS
 import SwiperCore, { Autoplay, Navigation } from "swiper";
 
@@ -60,8 +59,8 @@ function Header() {
   const slides = slidesConfig.map((slide) => {
     const content = slidesContent.find(({ id }) => id === slide.id) || {};
     const cards = slide.cards.map((card, index) => {
-        const cardContent = (content.cards || [])[index] || {};
-        return { ...card, ...cardContent };
+      const cardContent = (content.cards || [])[index] || {};
+      return { ...card, ...cardContent };
     });
     return {
       ...slide,
@@ -74,7 +73,7 @@ function Header() {
   SwiperCore.use([Autoplay, Navigation]);
 
   return (
-    <MKBox component="section">
+    <MKBox component="section" py={0}>
       <Swiper
         autoplay={{ delay: 5000 }}
         speed={800}

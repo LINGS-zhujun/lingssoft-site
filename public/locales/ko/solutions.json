@@ -87,6 +87,11 @@
     "security": {
         "title": "Enterprise Security Suite",
         "description": "프로세스 감시부터 문서 보안까지. 기업의 모든 디지털 자산을 빈틈없이 보호합니다. 모든 로그와 감시 데이터는 조직 내부에 안전하게 격리됩니다.",
+        "features": [
+            "실시간 자원 보호",
+            "데이터 유출 방지",
+            "통합 로그 분석"
+        ],
         "header": {
             "slides": [
                 {
@@ -163,6 +168,11 @@
     "education": {
         "title": "EduTech Platform",
         "description": "1인 강사와 과외 선생님을 위한 독립형 온라인 교육 시스템. 학생 데이터와 강의 자료를 플랫폼 종속 없이 직접 소유하고 관리할 수 있습니다.",
+        "features": [
+            "화이트라벨 온라인 교실",
+            "학습 데이터 로컬 관리",
+            "양방향 수업 도구"
+        ],
         "header": {
             "slides": [
                 {

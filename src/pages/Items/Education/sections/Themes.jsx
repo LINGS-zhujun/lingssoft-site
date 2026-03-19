@@ -1,59 +1,55 @@
 
-import React, { useContext } from "react";
-import { useTranslation } from "react-i18next";
-import { Container, Grid } from "@mui/material";
+// @mui material components
+import Container from "@mui/material/Container";
+import Grid from "@mui/material/Grid";
 
+// Material Kit 2 PRO React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
-import { ThemeModeContext } from "context/ThemeModeContext";
 
+// Material Kit 2 PRO React examples
 import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
 
-function Themes() {
-  const { t } = useTranslation();
-  const { darkMode } = useContext(ThemeModeContext);
+import { useTranslation } from "react-i18next";
+import { useThemeMode } from "context/ThemeModeContext";
 
-  return (
-    <MKBox component="section" py={8}>
-      <Container>
-        <Grid container item xs={12} lg={6} mb={6}>
-          <MKTypography variant="h3" color={darkMode ? "white" : "dark"} mb={2}>
-            Core Value
-          </MKTypography>
-          <MKTypography variant="body1" color={darkMode ? "white" : "text"} opacity={0.8}>
-            {t("solutions.education.description")}
-          </MKTypography>
-        </Grid>
-        
-        <Grid container spacing={4}>
-          <Grid item xs={12} md={4}>
-            <DefaultInfoCard
-              icon="school"
-              title={t("solutions.education.themes.branding.title")}
-              description={t("solutions.education.themes.branding.description")}
-              color="info"
-            />
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <DefaultInfoCard
-              icon="storage"
-              title={t("solutions.education.themes.data.title")}
-              description={t("solutions.education.themes.data.description")}
-              color="info"
-            />
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <DefaultInfoCard
-              icon="group"
-              title={t("solutions.education.themes.interaction.title")}
-              description={t("solutions.education.themes.interaction.description")}
-              color="info"
-            />
-          </Grid>
-        </Grid>
-      </Container>
-    </MKBox>
-  );
+function Themes() {
+    const { t } = useTranslation("solutions");
+    const { mode } = useThemeMode();
+    const isDark = mode === "dark";
+
+    return (
+        <MKBox component="section" py={12}>
+            <Container>
+                <Grid container spacing={3}>
+                    <Grid item xs={12} md={4}>
+                        <DefaultInfoCard
+                            color="info"
+                            icon="school"
+                            title={t("education.themes.branding.title")}
+                            description={t("education.themes.branding.description")}
+                        />
+                    </Grid>
+                    <Grid item xs={12} md={4}>
+                        <DefaultInfoCard
+                            color="info"
+                            icon="storage"
+                            title={t("education.themes.data.title")}
+                            description={t("education.themes.data.description")}
+                        />
+                    </Grid>
+                    <Grid item xs={12} md={4}>
+                        <DefaultInfoCard
+                            color="info"
+                            icon="group"
+                            title={t("education.themes.interaction.title")}
+                            description={t("education.themes.interaction.description")}
+                        />
+                    </Grid>
+                </Grid>
+            </Container>
+        </MKBox>
+    );
 }
 
 export default Themes;

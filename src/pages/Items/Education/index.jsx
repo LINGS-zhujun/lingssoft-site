@@ -1,7 +1,5 @@
-
-import React from "react";
-import { useTranslation } from "react-i18next";
-import { useThemeMode } from "context/ThemeModeContext";
+import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 // @mui material components
 import Container from "@mui/material/Container";
@@ -20,24 +18,27 @@ import DefaultFooter from "examples/Footers/DefaultFooter";
 import routes from "routes/routes";
 import footerRoutes from "routes/footer.routes";
 
-// Education page sections
-import Header from "pages/Items/Education/sections/Header";
+import { useThemeMode } from "context/ThemeModeContext";
+
+// Education sections
 import Themes from "pages/Items/Education/sections/Themes";
 import Revenue from "pages/Items/Education/sections/Revenue";
+import Header from "pages/Items/Education/sections/Header";
 
-function EducationPage() {
+const EduTechPlatform = () => {
+  const { t } = useTranslation('solutions');
   const { mode } = useThemeMode();
   const isDark = mode === "dark";
 
   return (
-    <MKBox component="main" bgColor={isDark ? "dark" : "white"} minHeight="100vh">
+    <>
       <DefaultNavbar
         routes={routes}
         sticky
         light={isDark}
-        transparent={true}
+        transparent={false}
       />
-      <MKBox>
+      <MKBox bgColor={isDark ? "dark" : "white"}>
         <Header />
         <Card
           sx={{
@@ -58,8 +59,8 @@ function EducationPage() {
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />
       </MKBox>
-    </MKBox>
+    </>
   );
 }
 
-export default EducationPage;
+export default EduTechPlatform;

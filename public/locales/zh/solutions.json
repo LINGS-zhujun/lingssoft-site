@@ -21,7 +21,7 @@
                 {
                     "id": "security",
                     "label": "本地部署创新",
-                    "title": "完美的安权环境",
+                    "title": "完美的安全环境",
                     "description": "在企业内部透彻管理数据，保障稳固的信息主权。",
                     "cards": [
                         { "title": "强化安全", "description": "构建与外部网络隔绝的物理隔离(Air-gap)环境，从源头上彻底切断来自外部的所有异常访问和入侵威胁。" },
@@ -87,6 +87,11 @@
     "security": {
         "title": "Enterprise Security Suite",
         "description": "从进程监控到文档安全。无缝保护所有企业数字资产。所有日志和监控数据安全隔离在组织内部。",
+        "features": [
+            "实时资源保护",
+            "防止数据外泄",
+            "日志集成分析"
+        ],
         "header": {
             "slides": [
                 {
@@ -163,6 +168,11 @@
     "education": {
         "title": "EduTech Platform",
         "description": "专为自由讲师和家庭教师设计的独立在线教育系统。直接拥有和管理学生数据及教学材料，无需依赖平台。",
+        "features": [
+            "白标在线教室",
+            "学习数据本地管理",
+            "双向互动教学工具"
+        ],
         "header": {
             "slides": [
                 {

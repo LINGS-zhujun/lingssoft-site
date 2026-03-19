@@ -87,6 +87,11 @@
     "security": {
         "title": "Enterprise Security Suite",
         "description": "From process monitoring to document security. Protect all corporate digital assets seamlessly. All logs and monitoring data remain safely isolated within your organization.",
+        "features": [
+            "Real-time Resource Protection",
+            "Data Leak Prevention",
+            "Integrated Log Analysis"
+        ],
         "header": {
             "slides": [
                 {
@@ -163,6 +168,11 @@
     "education": {
         "title": "EduTech Platform",
         "description": "A standalone online education system for freelance tutors. Own and manage student data and teaching materials directly without platform dependency.",
+        "features": [
+            "White-label Online Classroom",
+            "Local Learning Data Management",
+            "Interactive Teaching Tools"
+        ],
         "header": {
             "slides": [
                 {
