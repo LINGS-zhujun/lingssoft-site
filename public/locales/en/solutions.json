@@ -177,9 +177,9 @@
             "slides": [
                 {
                     "id": "branding",
-                    "label": "My Own Branded Education",
-                    "title": "White-label Online Classroom",
-                    "description": "Establish an educational environment with your unique brand, rather than the platform's logo, providing a professional experience for your students.",
+                    "label": "Instructor-Branded Education",
+                    "title": "White-label Online Education Platform",
+                    "description": "Replace platform logos with your own brand identity and deliver a consistent, professional brand experience for your learners.",
                     "cards": [
                         { "title": "Brand Customization", "description": "Operate independent educational sites by setting your own logo, theme colors, and domain without being dependent on large platforms." },
                         { "title": "Responsive Interface", "description": "Maximize student accessibility through a user experience optimized for all devices, including mobile and tablets." },
