@@ -16,9 +16,9 @@ import MKBox from "components/MKBox";
 import SliderHeader from "pages/Company/Pricing/components/Header";
 
 // Images
-import bg1 from "assets/images/bg.jpg";
-import bg2 from "assets/images/bg2.jpg";
-import bg3 from "assets/images/solutions_bg_data_sovereignty.png";
+import bg1 from "assets/images/sec-monitoring.png";
+import bg2 from "assets/images/sec-drm.png";
+import bg3 from "assets/images/sec-logging.png";
 
 import { useTranslation } from "react-i18next";
 
