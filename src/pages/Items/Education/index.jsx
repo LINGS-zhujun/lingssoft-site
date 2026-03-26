@@ -38,24 +38,21 @@ const EduTechPlatform = () => {
         light={isDark}
         transparent={false}
       />
-      <MKBox bgColor={isDark ? "dark" : "white"}>
-        <Header />
-        <Card
-          sx={{
-            p: 2,
-            mx: { xs: 2, lg: 3 },
-            mt: -8,
-            mb: 4,
-            backgroundColor: ({ palette: { white, dark }, functions: { rgba } }) =>
-              isDark ? rgba(dark.main, 0.8) : rgba(white.main, 0.8),
-            backdropFilter: "saturate(200%) blur(30px)",
-            boxShadow: ({ boxShadows: { xxl } }) => xxl,
-          }}
-        >
-          <Themes />
-          <Revenue />
-        </Card>
-      </MKBox>
+      <Header />
+      <Card
+        sx={{
+          p: 2,
+          mx: { xs: 2, lg: 3 },
+          mt: -8,
+          mb: 4,
+          boxShadow: ({ boxShadows: { xxl } }) => xxl,
+          backgroundColor: isDark ? "rgba(12,10,24,0.85)" : "#ffffff", // Dynamic background
+          color: isDark ? "#ffffff" : "inherit", // Dynamic text color base
+        }}
+      >
+        <Themes />
+        <Revenue />
+      </Card>
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />
       </MKBox>
