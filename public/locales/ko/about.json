@@ -1,9 +1,9 @@
 {
   "hero": {
-    "title": "놀라운 팀과 함께",
-    "typed": ["팀", "디자인", "도구"],
-    "description": "우리는 늘 자신을 표현하고 꿈을 현실로 만들고자 합니다. 이 게임을 플레이할 기회가 있다면",
-    "cta": "계정 만들기",
+    "title": "지속 가능한 미래를 위한 동행",
+    "typed": ["소셜벤처", "클린테크", "지역사회 상생", "ESG 경영"],
+    "description": "우리는 기술로 세상을 더 깨끗하게 만들고, 지역사회와 함께 성장하며 사회적 가치를 창출하는 소셜벤처입니다.",
+    "cta": "지금 참여하기",
     "socialLabel": "다음에서 만나보세요",
     "socialLinks": [
       { "id": "facebook", "icon": "fab fa-facebook", "url": "#" },
@@ -16,21 +16,21 @@
     "cards": [
       {
         "id": "integrated",
-        "icon": "public",
-        "title": "완전한 통합",
-        "description": "타인의 말에 상처받고 신뢰를 잃지만 우리는 다시 일어서곤 합니다."
+        "icon": "eco",
+        "title": "친환경 기술",
+        "description": "지속 가능한 환경을 위해 클린테크 기반의 혁신적인 솔루션을 개발합니다."
       },
       {
         "id": "payments",
-        "icon": "payments",
-        "title": "결제 기능",
-        "description": "타인의 말에 상처받고 신뢰를 잃지만 우리는 다시 일어서곤 합니다."
+        "icon": "groups",
+        "title": "지역사회 상생",
+        "description": "지역 공동체와 이익을 나누며 함께 성장하는 상생 생태계를 구축합니다."
       },
       {
         "id": "components",
-        "icon": "apps",
-        "title": "미리 만들어 둔 컴포넌트",
-        "description": "타인의 말에 상처받고 신뢰를 잃지만 우리는 다시 일어서곤 합니다."
+        "icon": "volunteer_activism",
+        "title": "사회적 가치",
+        "description": "비즈니스를 넘어 사회 문제를 해결하고 긍정적인 변화를 이끌어냅니다."
       },
       {
         "id": "platform",

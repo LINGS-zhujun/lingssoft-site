@@ -1,9 +1,9 @@
 {
   "hero": {
-    "title": "Work with an amazing",
-    "typed": ["team", "design", "tool"],
-    "description": "We're constantly trying to express ourselves and actualize our dreams. If you have the opportunity to play this game",
-    "cta": "create account",
+    "title": "A Journey for Sustainable Future",
+    "typed": ["Social Venture", "Clean Tech", "ESG Management", "Shared Growth"],
+    "description": "We create social value by making the world cleaner through technology and growing together with local communities.",
+    "cta": "Join Us Now",
     "socialLabel": "Find us on",
     "socialLinks": [
       { "id": "facebook", "icon": "fab fa-facebook", "url": "#" },
@@ -16,21 +16,21 @@
     "cards": [
       {
         "id": "integrated",
-        "icon": "public",
-        "title": "Fully integrated",
-        "description": "We get insulted by others, lose trust for those We get back freezes"
+        "icon": "eco",
+        "title": "Clean Tech",
+        "description": "We develop innovative clean-tech solutions for a sustainable environment."
       },
       {
         "id": "payments",
-        "icon": "payments",
-        "title": "Payments functionality",
-        "description": "We get insulted by others, lose trust for those We get back freezes"
+        "icon": "groups",
+        "title": "Community Prosperity",
+        "description": "We build a win-win ecosystem growing together with local communities."
       },
       {
         "id": "components",
-        "icon": "apps",
-        "title": "Prebuilt components",
-        "description": "We get insulted by others, lose trust for those We get back freezes"
+        "icon": "volunteer_activism",
+        "title": "Social Value",
+        "description": "We go beyond business to solve social problems and lead positive changes."
       },
       {
         "id": "platform",
