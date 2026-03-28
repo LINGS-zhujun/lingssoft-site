@@ -1,9 +1,9 @@
 {
   "hero": {
-    "title": "与出色团队合作",
-    "typed": ["团队", "设计", "工具"],
-    "description": "我们不断表达自己、让梦想成真。如果有机会参与这场游戏",
-    "cta": "创建账户",
+    "title": "致力于可持续互助的未来",
+    "typed": ["社会企业", "清洁技术", "ESG管理", "共同成长"],
+    "description": "我们是一家通过技术洁净世界，并与社区共同成长，创造社会价值的社会企业。",
+    "cta": "立即加入",
     "socialLabel": "关注我们",
     "socialLinks": [
       { "id": "facebook", "icon": "fab fa-facebook", "url": "#" },
@@ -16,21 +16,21 @@
     "cards": [
       {
         "id": "integrated",
-        "icon": "public",
-        "title": "完全集成",
-        "description": "即便被人冒犯、失去信任，我们依旧会重新振作。"
+        "icon": "eco",
+        "title": "清洁技术",
+        "description": "为了环境的可持续发展，我们开发基于清洁技术的创新解决方案。"
       },
       {
         "id": "payments",
-        "icon": "payments",
-        "title": "支付能力",
-        "description": "即便被人冒犯、失去信任，我们依旧会重新振作。"
+        "icon": "groups",
+        "title": "社区共同繁荣",
+        "description": "我们构建了一个与社区分享利益、共同成长的共赢生态系统。"
       },
       {
         "id": "components",
-        "icon": "apps",
-        "title": "预构建组件",
-        "description": "即便被人冒犯、失去信任，我们依旧会重新振作。"
+        "icon": "volunteer_activism",
+        "title": "社会价值",
+        "description": "超越业务范畴，解决社会问题，引领积极的变革。"
       },
       {
         "id": "platform",

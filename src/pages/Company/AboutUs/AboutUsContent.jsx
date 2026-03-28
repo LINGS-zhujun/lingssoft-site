@@ -46,7 +46,7 @@ import routes from "routes/routes";
 import footerRoutes from "routes/footer.routes";
 
 // Images
-import bgImage from "assets/images/bg-about-us.jpg";
+import bgImage from "assets/images/bg-social-venture.png";
 import { useTranslation } from "react-i18next";
 import { useThemeMode } from "context/ThemeModeContext";
 

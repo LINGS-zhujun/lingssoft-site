@@ -1,9 +1,9 @@
 {
   "hero": {
-    "title": "素晴らしいチームと",
-    "typed": ["チーム", "デザイン", "ツール"],
-    "description": "私たちは常に自分を表現し、夢を形にしようとしています。このゲームに参加できるチャンスがあるなら",
-    "cta": "アカウントを作成",
+    "title": "持続可能な未来への同行",
+    "typed": ["ソーシャルベンチャー", "クリーンテック", "ESG経営", "地域共生"],
+    "description": "私たちは技術で世界をよりきれいにし、地域社会と共に成長しながら社会的価値を創出するソーシャルベンチャーです。",
+    "cta": "今すぐ参加する",
     "socialLabel": "SNSでフォロー",
     "socialLinks": [
       { "id": "facebook", "icon": "fab fa-facebook", "url": "#" },
@@ -16,21 +16,21 @@
     "cards": [
       {
         "id": "integrated",
-        "icon": "public",
-        "title": "完全統合",
-        "description": "人に侮辱され信頼を失っても、私たちは再び立ち上がります。"
+        "icon": "eco",
+        "title": "クリーンテック",
+        "description": "持続可能な環境のために、クリーンテック基盤の革新的なソリューションを開発します。"
       },
       {
         "id": "payments",
-        "icon": "payments",
-        "title": "決済機能",
-        "description": "人に侮辱され信頼を失っても、私たちは再び立ち上がります。"
+        "icon": "groups",
+        "title": "地域社会との共生",
+        "description": "地域コミュニティと利益を分かち合い、共に成長する共生のエコシステムを構築します。"
       },
       {
         "id": "components",
-        "icon": "apps",
-        "title": "ビルド済みコンポーネント",
-        "description": "人に侮辱され信頼を失っても、私たちは再び立ち上がります。"
+        "icon": "volunteer_activism",
+        "title": "社会的価値",
+        "description": "ビジネスを超えて社会問題を解決し、ポジティブな変化を導き出します。"
       },
       {
         "id": "platform",
