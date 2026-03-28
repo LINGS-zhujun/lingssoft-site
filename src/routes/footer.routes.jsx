@@ -42,7 +42,7 @@ export default {
       translationKey: "menu.business",
       items: [
         {
-          translationKey: "menu.solutions",
+          translationKey: "menu.all_products",
           route: "/pages/company/solutions",
         },
         {
