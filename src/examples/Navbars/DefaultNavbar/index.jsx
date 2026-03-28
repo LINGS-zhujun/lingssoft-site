@@ -1,4 +1,4 @@
-﻿/*
+/*
 /**
 =========================================================
 * Material Kit 2 PRO React - v2.1.1
@@ -581,8 +581,8 @@ function DefaultNavbar({
             {renderNavbarItems}
           </MKBox>
           <MKBox ml={{ xs: "auto", lg: 0 }} display="flex" alignItems="center" gap={1.5}>
-            <LanguageSwitcher />
             <ThemeSwitcher />
+            <LanguageSwitcher />
           </MKBox>
           <MKBox
             display={{ xs: "inline-block", lg: "none" }}

@@ -27,5 +27,8 @@
   "theme": {
     "light": "Light Mode",
     "dark": "Dark Mode"
+  },
+  "language": {
+    "select": "Select Language"
   }
 }

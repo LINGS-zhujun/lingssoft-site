@@ -27,5 +27,8 @@
   "theme": {
     "light": "라이트 모드",
     "dark": "다크 모드"
+  },
+  "language": {
+    "select": "언어 선택"
   }
 }

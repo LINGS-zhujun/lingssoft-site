@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 // @mui material components
 import IconButton from "@mui/material/IconButton";
 import Icon from "@mui/material/Icon";
@@ -24,6 +25,7 @@ export default function LanguageSwitcher() {
   const location = useLocation();
   const navigate = useNavigate();
   const { mode } = useThemeMode();
+  const { t } = useTranslation("common");
   const isDark = mode === "dark";
 
   const handleOpen = (event) => {
@@ -55,7 +57,7 @@ export default function LanguageSwitcher() {
 
   return (
     <>
-      <Tooltip title="Select Language">
+      <Tooltip title={t("language.select")}>
         <IconButton
           onClick={handleOpen}
           size="small"
