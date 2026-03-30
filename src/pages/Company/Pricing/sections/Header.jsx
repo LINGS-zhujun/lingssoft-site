@@ -27,9 +27,9 @@ import "swiper/css/navigation";
 import SliderHeader from "pages/Company/Pricing/components/Header";
 
 // Images
-import bg1 from "assets/images/bg2.jpg";
-import bg2 from "assets/images/bg.jpg";
-import bg3 from "assets/images/dg1.jpg";
+import bg1 from "assets/images/pricing-luxury-secretary.png";
+import bg2 from "assets/images/pricing-team-executive.png";
+import bg3 from "assets/images/pricing-office-assistant.png";
 import { useTranslation } from "react-i18next";
 
 const slidesConfig = [
