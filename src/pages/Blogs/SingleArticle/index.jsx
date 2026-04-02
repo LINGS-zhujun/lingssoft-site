@@ -45,9 +45,12 @@ import footerRoutes from "routes/footer.routes";
 
 // Images
 import bgImage from "assets/images/bg5.jpg";
+import { useThemeMode } from "context/ThemeModeContext";
 
 function SingleArticle() {
   const headerRef = useRef(null);
+  const { mode } = useThemeMode();
+  const isDark = mode === "dark";
 
   // Setting up rellax
   useEffect(() => {
@@ -60,11 +63,12 @@ function SingleArticle() {
 
   return (
     <>
-      <MKBox bgColor="white" py={0.25}>
+      <MKBox bgColor={isDark ? "dark" : "white"} py={0.25}>
         <DefaultNavbar
           routes={routes}
           transparent
           relative
+          light={isDark}
         />
       </MKBox>
       <MKBox

@@ -35,14 +35,20 @@ import FaqCollapse from "pages/Support/Faq/components/FaqCollapse";
 // Routes
 import routes from "routes/routes";
 
+// Context
+import { useThemeMode } from "context/ThemeModeContext";
+
 function Faq() {
   const [collapse, setCollapse] = useState(false);
+  const { mode } = useThemeMode();
+  const isDark = mode === "dark";
 
   return (
     <>
       <DefaultNavbar
         routes={routes}
         sticky
+        light={isDark}
       />
       <MKBox component="section" pt={20} pb={12}>
         <Container sx={{ mb: 8 }}>
@@ -76,7 +82,14 @@ function Faq() {
         <Container>
           <Grid container justifyContent="center">
             <Grid item xs={12}>
-              <Card>
+              <Card
+                sx={({ palette, boxShadows }) => ({
+                  backgroundColor: isDark ? "rgba(22, 27, 43, 0.85)" : "rgba(255, 255, 255, 0.85)",
+                  backdropFilter: "saturate(200%) blur(30px)",
+                  boxShadow: boxShadows.xxl,
+                  border: isDark ? "1px solid rgba(255, 255, 255, 0.1)" : "none",
+                })}
+              >
                 <MKBox
                   variant="gradient"
                   bgColor="info"
@@ -94,7 +107,7 @@ function Faq() {
                   </MKTypography>
                 </MKBox>
                 <MKBox p={6}>
-                  <MKTypography variant="h5" my={3}>
+                  <MKTypography variant="h5" my={3} color={isDark ? "white" : "dark"}>
                     Basics
                   </MKTypography>
                   <FaqCollapse
@@ -169,7 +182,7 @@ function Faq() {
                     you&apos;re taught you can&apos;t do anything, you won&apos;t do anything. I was
                     taught I could do everything.
                   </FaqCollapse>
-                  <MKTypography variant="h5" mt={6} mb={3}>
+                  <MKTypography variant="h5" mt={6} mb={3} color={isDark ? "white" : "dark"}>
                     Account & Settings
                   </MKTypography>
                   <FaqCollapse
@@ -215,7 +228,7 @@ function Faq() {
                     doers. Because I&apos;m here to follow my dreams and inspire other people to
                     follow their dreams, too.
                   </FaqCollapse>
-                  <MKTypography variant="h5" mt={6} mb={3}>
+                  <MKTypography variant="h5" mt={6} mb={3} color={isDark ? "white" : "dark"}>
                     Licenses
                   </MKTypography>
                   <FaqCollapse

@@ -30,8 +30,11 @@ import DefaultFooter from "examples/Footers/DefaultFooter";
 import routes from "routes/routes";
 import footerRoutes from "routes/footer.routes";
 import { Trans, useTranslation } from "react-i18next";
+import { useThemeMode } from "context/ThemeModeContext";
 
 function License() {
+  const { mode } = useThemeMode();
+  const isDark = mode === "dark";
   const { t } = useTranslation("license");
   const sections = t("sections", { returnObjects: true }) || [];
   const title = t("meta.title");
@@ -65,7 +68,7 @@ function License() {
 
   return (
     <>
-      <DefaultNavbar routes={routes} sticky />
+      <DefaultNavbar routes={routes} sticky light={isDark} />
       <MKBox
         minHeight="50vh"
         width="100%"

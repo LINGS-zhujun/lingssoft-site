@@ -43,6 +43,8 @@ function ContactUs() {
       <MKBox position="fixed" top="0.5rem" width="100%">
         <DefaultNavbar
           routes={routes}
+          light={isDark}
+          sticky
         />
       </MKBox>
       <Grid container spacing={3} alignItems="center">

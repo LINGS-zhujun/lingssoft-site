@@ -38,15 +38,22 @@ import Places from "pages/LandingPages/Coworking/sections/Places";
 import routes from "routes/routes";
 import footerRoutes from "routes/footer.routes";
 
+// Context
+import { useThemeMode } from "context/ThemeModeContext";
+
 // Images
 import bgImage from "assets/images/bg-coworking.jpeg";
 
 function Coworking() {
+  const { mode } = useThemeMode();
+  const isDark = mode === "dark";
+
   return (
     <>
       <DefaultNavbar
         routes={routes}
         sticky
+        light={isDark}
       />
       <MKBox
         minHeight="75vh"
@@ -110,7 +117,8 @@ function Coworking() {
           mx: { xs: 2, lg: 3 },
           mt: -8,
           mb: 4,
-          backgroundColor: ({ palette: { white }, functions: { rgba } }) => rgba(white.main, 0.8),
+          backgroundColor: isDark ? "rgba(12,10,24,0.85)" : "#ffffff", // Dynamic background
+          color: isDark ? "#ffffff" : "inherit", // Dynamic text color base
           backdropFilter: "saturate(200%) blur(30px)",
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}

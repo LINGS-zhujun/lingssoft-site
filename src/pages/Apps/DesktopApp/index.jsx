@@ -36,16 +36,20 @@ import Pricing from "pages/Apps/DesktopApp/sections/Pricing";
 // Routes
 import routes from "routes/routes";
 import footerRoutes from "routes/footer.routes";
+import { useThemeMode } from "context/ThemeModeContext";
 
 function DesktopApp() {
+  const { mode } = useThemeMode();
+  const isDark = mode === "dark";
+
   return (
     <>
       <DefaultNavbar
         routes={routes}
         transparent
-        light
+        light={isDark}
       />
-      <MKBox bgColor="white">
+      <MKBox bgColor={isDark ? "dark" : "white"}>
         <MKBox
           minHeight="50vh"
           width="100%"

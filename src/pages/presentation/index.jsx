@@ -120,16 +120,16 @@ function Presentation() {
         </Container>
       </MKBox>
       <Card
-        sx={({ palette, boxShadows }) => ({
+        sx={{
           p: 2,
           mx: { xs: 2, lg: 3 },
           mt: -8,
           mb: 4,
-          backgroundColor:
-            palette.mode === "dark" ? palette.background.paper : palette.background.default,
-          boxShadow: boxShadows.xxl,
-          border: `1px solid ${palette.mode === "dark" ? palette.grey[800] : palette.grey[200]}`,
-        })}
+          backgroundColor: isDark ? "rgba(12,10,24,0.85)" : "#ffffff",
+          color: isDark ? "white" : "inherit",
+          boxShadow: ({ boxShadows: { xxl } }) => xxl,
+          border: `1px solid ${isDark ? "rgba(255,255,255,0.1)" : "rgba(0,0,0,0.1)"}`,
+        }}
       >
         <Container sx={{ py: 6 }}>
           <Grid container spacing={3}>
@@ -159,7 +159,7 @@ function Presentation() {
         <Container>
           <Grid container spacing={6} alignItems="center">
             <Grid item xs={12} lg={6}>
-              <MKTypography variant="h3" mb={2}>
+              <MKTypography variant="h3" mb={2} color={isDark ? "white" : "dark"}>
                 {t("presentation:influence.title")}
               </MKTypography>
               <MKTypography variant="body1" color={isDark ? "white" : "text"} mb={3}>
@@ -205,7 +205,7 @@ function Presentation() {
         </Container>
         <Divider sx={{ my: 6 }} />
         <Container>
-          <MKTypography variant="h3" textAlign="center" mb={1}>
+          <MKTypography variant="h3" textAlign="center" mb={1} color={isDark ? "white" : "dark"}>
             {t("presentation:programs.title")}
           </MKTypography>
           <MKTypography variant="body1" color={isDark ? "white" : "text"} textAlign="center" mb={6}>
@@ -270,7 +270,7 @@ function Presentation() {
           <Container>
             <Grid container spacing={4} alignItems="center">
               <Grid item xs={12} md={6}>
-                <MKTypography variant="h4" fontWeight="bold" mb={2}>
+                <MKTypography variant="h4" fontWeight="bold" mb={2} color={isDark ? "white" : "dark"}>
                   {t("presentation:alliance.title")}
                 </MKTypography>
                 <MKTypography variant="body1" color={isDark ? "white" : "text"} mb={3}>
@@ -292,7 +292,7 @@ function Presentation() {
                     color: palette.mode === "dark" ? palette.common.white : palette.text.primary,
                   })}
                 >
-                  <MKTypography variant="h6" mb={1}>
+                  <MKTypography variant="h6" mb={1} color={isDark ? "white" : "dark"}>
                     {t("presentation:alliance.engagements")}
                   </MKTypography>
                   <List>

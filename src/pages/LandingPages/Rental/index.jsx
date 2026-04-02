@@ -50,7 +50,7 @@ function Rental() {
       <DefaultNavbar
         routes={routes}
         transparent
-        light
+        light={isDark}
       />
       <MKBox
         minHeight="50vh"

@@ -28,14 +28,24 @@ import MKButton from "components/MKButton";
 
 // Authentication layout components
 import CoverLayout from "pages/Authentication/components/CoverLayout";
+import { useThemeMode } from "context/ThemeModeContext";
 
 // Images
 import bgImage from "assets/images/bg-sign-up-cover.jpeg";
 
 function Cover() {
+  const { mode } = useThemeMode();
+  const isDark = mode === "dark";
+
   return (
     <CoverLayout image={bgImage}>
-      <Card>
+      <Card
+        sx={({ boxShadows }) => ({
+          backgroundColor: isDark ? "rgba(22, 27, 43, 0.85)" : "rgba(255, 255, 255, 0.85)",
+          backdropFilter: "saturate(200%) blur(30px)",
+          boxShadow: boxShadows.xxl,
+        })}
+      >
         <MKBox
           variant="gradient"
           bgColor="info"
