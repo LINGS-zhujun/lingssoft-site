@@ -1,0 +1,12 @@
+{
+  "title": "联系我们",
+  "sectionTitle": "我们随时为您服务",
+  "subtitle": "如果您有任何疑问（包括合作机会），请发送电子邮件至 hello@lingssoft.com 或使用我们的联系表单进行联系。",
+  "form": {
+    "fullName": "姓名",
+    "email": "电子邮件",
+    "message": "有什么可以帮您的？",
+    "placeholder": "请至少填写 250 个字符的内容。",
+    "send": "发送消息"
+  }
+}

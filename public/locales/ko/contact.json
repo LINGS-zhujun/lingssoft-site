@@ -1,0 +1,12 @@
+{
+  "title": "문의하기",
+  "sectionTitle": "언제든지 연락주세요",
+  "subtitle": "파트너십 기회를 포함하여 궁금한 점이 있으시면 hello@lingssoft.com으로 이메일을 보내거나 문의 양식을 사용하여 남겨주세요.",
+  "form": {
+    "fullName": "성함",
+    "email": "이메일",
+    "message": "무엇을 도와드릴까요?",
+    "placeholder": "최소 250자 이상으로 내용을 기재해 주세요.",
+    "send": "문의 전송"
+  }
+}

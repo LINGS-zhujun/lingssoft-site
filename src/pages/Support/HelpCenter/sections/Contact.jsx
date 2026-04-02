@@ -24,10 +24,12 @@ import MKButton from "components/MKButton";
 import MKTypography from "components/MKTypography";
 
 import { useThemeMode } from "context/ThemeModeContext";
+import { useTranslation } from "react-i18next";
 
 function ContactUs() {
   const { mode } = useThemeMode();
   const isDark = mode === "dark";
+  const { t } = useTranslation("contact");
 
   return (
     <MKBox component="section" py={12}>
@@ -41,10 +43,10 @@ function ContactUs() {
           sx={{ mx: "auto", mb: { xs: 0, md: 6 }, textAlign: "center" }}
         >
           <MKTypography variant="h3" mb={1} color={isDark ? "white" : "dark"}>
-            We are here for you
+            {t("sectionTitle")}
           </MKTypography>
           <MKTypography variant="body2" color={isDark ? "white" : "text"} opacity={isDark ? 0.8 : 1}>
-            For further questions, including partnership opportunities
+            {t("subtitle")}
           </MKTypography>
         </Grid>
         <Grid container item xs={12} lg={8} sx={{ mx: "auto" }}>
@@ -54,7 +56,7 @@ function ContactUs() {
                 <Grid item xs={12} md={6}>
                   <MKInput
                     variant="standard"
-                    label="Full Name"
+                    label={t("form.fullName")}
                     InputLabelProps={{ shrink: true, style: { color: isDark ? "white" : "inherit" } }}
                     fullWidth
                     sx={{
@@ -72,7 +74,7 @@ function ContactUs() {
                   <MKInput
                     type="email"
                     variant="standard"
-                    label="Email"
+                    label={t("form.email")}
                     InputLabelProps={{ shrink: true, style: { color: isDark ? "white" : "inherit" } }}
                     fullWidth
                     sx={{
@@ -89,8 +91,8 @@ function ContactUs() {
                 <Grid item xs={12}>
                   <MKInput
                     variant="standard"
-                    label="What can we help you?"
-                    placeholder="Describe your problem in at least 250 characters"
+                    label={t("form.message")}
+                    placeholder={t("form.placeholder")}
                     InputLabelProps={{ shrink: true, style: { color: isDark ? "white" : "inherit" } }}
                     multiline
                     fullWidth
@@ -113,7 +115,7 @@ function ContactUs() {
               </Grid>
               <Grid container item justifyContent="center" xs={12} my={6}>
                 <MKButton type="submit" variant="gradient" color={isDark ? "info" : "dark"}>
-                  Send Message
+                  {t("form.send")}
                 </MKButton>
               </Grid>
             </MKBox>
