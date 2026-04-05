@@ -23,8 +23,11 @@ import MKTypography from "components/MKTypography";
 
 // Material Kit 2 PRO React examples
 import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
+import { useTranslation } from "react-i18next";
 
 function SocialAnalytics() {
+  const { t } = useTranslation("helpcenter");
+
   return (
     <MKBox component="section" py={6}>
       <Container>
@@ -37,41 +40,37 @@ function SocialAnalytics() {
           sx={{ mx: "auto", pb: 3, textAlign: "center" }}
         >
           <MKTypography variant="h4" color="info" textGradient>
-            Social Analytics
+            {t("socialAnalytics.title")}
           </MKTypography>
           <MKTypography variant="h2" my={1}>
-            Turn your idea into a startup
+            {t("socialAnalytics.subtitle")}
           </MKTypography>
           <MKTypography variant="body1" color="text">
-            We&apos;re constantly trying to express ourselves and actualize our dreams. If you have
-            the opportunity to play
+            {t("socialAnalytics.description")}
           </MKTypography>
         </Grid>
         <Grid container spacing={3} sx={{ mt: 3 }}>
           <Grid item xs={12} md={6} lg={4}>
             <DefaultInfoCard
               icon="groups"
-              title="Check our team"
-              description="We get insulted by others, lose trust for those others. We get back here to follow
-                my dreams"
+              title={t("socialAnalytics.cards.team.title")}
+              description={t("socialAnalytics.cards.team.description")}
               direction="center"
             />
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
             <DefaultInfoCard
               icon="support_agent"
-              title="Support 24/7"
-              description="We get insulted by others, lose trust for those others. We get back here to follow
-                my dreams"
+              title={t("socialAnalytics.cards.support.title")}
+              description={t("socialAnalytics.cards.support.description")}
               direction="center"
             />
           </Grid>
           <Grid item xs={12} md={6} lg={4} sx={{ mx: "auto" }}>
             <DefaultInfoCard
               icon="update"
-              title="Unlimited revisions"
-              description="We get insulted by others, lose trust for those others. We get back here to follow
-                my dreams"
+              title={t("socialAnalytics.cards.revisions.title")}
+              description={t("socialAnalytics.cards.revisions.description")}
               direction="center"
             />
           </Grid>

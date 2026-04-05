@@ -25,6 +25,7 @@ import MKTypography from "components/MKTypography";
 
 // Material Kit 2 PRO React examples
 import DefaultBackgroundCard from "examples/Cards/BackgroundCards/DefaultBackgroundCard";
+import { useTranslation } from "react-i18next";
 
 // HelpCenter page components
 import ListItem from "pages/Support/HelpCenter/components/ListItem";
@@ -38,6 +39,7 @@ import { useThemeMode } from "context/ThemeModeContext";
 function Features() {
   const { mode } = useThemeMode();
   const isDark = mode === "dark";
+  const { t } = useTranslation("helpcenter");
 
   return (
     <MKBox component="section" py={12}>
@@ -69,65 +71,53 @@ function Features() {
             </Icon>
           </MKBox>
           <MKTypography variant="h3" mt={3} color={isDark ? "white" : "dark"}>
-            How To Handle Them
+            {t("features.title")}
           </MKTypography>
           <MKTypography variant="body2" color={isDark ? "white" : "text"} opacity={isDark ? 0.8 : 1}>
-            We&apos;re constantly trying to express ourselves and actualize our dreams. Don&apos;t
-            stop.
+            {t("features.subtitle")}
           </MKTypography>
         </Grid>
         <Grid container spacing={3} alignItems="center" sx={{ mt: 6 }}>
           <Grid item xs={12} md={4} sx={{ ml: "auto" }}>
             <DefaultBackgroundCard
               image={bgImage1}
-              label="website visitors"
-              title="The Best Productivity Apps on Market"
-              description="As we live, our hearts turn colder. Cause pain is what we go through as we become older. We get insulted by others, lose trust for those others."
+              label={t("features.cards.0.label")}
+              title={t("features.cards.0.title")}
+              description={t("features.cards.0.description")}
               action={{
                 type: "internal",
                 route: "/pages/support/help-center",
-                label: "get started",
+                label: t("features.cards.0.cta"),
               }}
             />
           </Grid>
           <Grid item xs={12} md={5} sx={{ mr: "auto", ml: { xs: 0, md: 6 } }}>
-            <ListItem title="1. Listen to Social Conversations">
-              Gain access to the demographics, psychographics, and location of unique people who are
-              interested and talk about your brand.
-            </ListItem>
-            <ListItem title="2. Performance Analyze">
-              Unify data from Facebook, Instagram, Twitter, LinkedIn, and Youtube to gain rich
-              insights from easy-to-use reports.
-            </ListItem>
-            <ListItem title="3. Social Conversions">
-              Track actions taken on your website that originated from social, and understand the
-              impact on your bottom line.
-            </ListItem>
+            {t("features.list1", { returnObjects: true }).map((item, index) => (
+              <ListItem key={index} title={item.title}>
+                {item.description}
+              </ListItem>
+            ))}
           </Grid>
         </Grid>
         <Divider sx={{ my: { xs: 2, sm: 8 }, mx: 12 }} />
         <Grid container spacing={3} alignItems="center">
           <Grid item xs={12} md={5} sx={{ ml: "auto" }}>
-            <ListItem title="1. Always In Sync">
-              No matter where you are, Trello stays in sync across all of your devices.
-            </ListItem>
-            <ListItem title="2. Work With Any Team">
-              Whether it&apos;s for work or even the next family vacation, Trello helps your team.
-            </ListItem>
-            <ListItem title="3. A Productivity Platform">
-              Integrate the apps your team already uses directly into your workflow.
-            </ListItem>
+            {t("features.list2", { returnObjects: true }).map((item, index) => (
+              <ListItem key={index} title={item.title}>
+                {item.description}
+              </ListItem>
+            ))}
           </Grid>
           <Grid item xs={12} md={4} sx={{ mr: "auto", ml: { xs: 0, md: 6 } }}>
             <DefaultBackgroundCard
               image={bgImage2}
-              label="social activities"
-              title="Working on Wallstreet is Not So Easy"
-              description="There’s nothing I really wanted to do in life that I wasn’t able to get good at. I’m not really specifically talented at anything except for the ability to learn."
+              label={t("features.cards.1.label")}
+              title={t("features.cards.1.title")}
+              description={t("features.cards.1.description")}
               action={{
                 type: "internal",
                 route: "/pages/support/help-center",
-                label: "get started",
+                label: t("features.cards.1.cta"),
               }}
             />
           </Grid>
