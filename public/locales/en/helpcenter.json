@@ -1,0 +1,97 @@
+{
+  "hero": {
+    "title": "How can we help you?",
+    "cta": "search issue"
+  },
+  "socialAnalytics": {
+    "title": "Social Analytics",
+    "subtitle": "Turn your idea into a successful startup",
+    "description": "We are committed to turning your creative ideas into reality.",
+    "cards": {
+      "team": {
+        "title": "Expert Team",
+        "description": "Succeed in your projects with the best experts."
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Our support team is available 24/7 to solve your issues quickly."
+      },
+      "revisions": {
+        "title": "Flexible Revisions",
+        "description": "We create the best results according to your requirements."
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "We have collected the most frequently asked questions about using the service.",
+    "items": [
+      {
+        "question": "How do I order?",
+        "answer": "Leave detailed requirements on the contact page, and a representative will contact you after review."
+      },
+      {
+        "question": "How can I make the payment?",
+        "answer": "We support various payment methods such as card payment and bank transfer."
+      },
+      {
+        "question": "How long does it take for production?",
+        "answer": "It varies depending on the scale of the project, but usually takes 2 to 8 weeks."
+      },
+      {
+        "question": "Can I resell the products?",
+        "answer": "Resale availability may vary depending on the license regulations. Please refer to the license page."
+      },
+      {
+        "question": "Where can I find shipping details?",
+        "answer": "Digital products will be sent via email, and physical products can be checked on My Page."
+      }
+    ]
+  },
+  "features": {
+    "title": "Technical Support & Management",
+    "subtitle": "Maintain the best service quality through a systematic system.",
+    "cards": [
+      {
+        "label": "Website Visitors",
+        "title": "Most Productive Tech Support in the Market",
+        "description": "Ensure business continuity through professional technical support.",
+        "cta": "Get Started"
+      },
+      {
+        "label": "Social Activities",
+        "title": "Efficient Operation Management System",
+        "description": "Reduce operational resources by integrating management of various channels.",
+        "cta": "Get Started"
+      }
+    ],
+    "list1": [
+      {
+        "title": "1. Social Conversation Analysis",
+        "description": "Precisely analyze user reactions and market trends related to your brand."
+      },
+      {
+        "title": "2. Performance Analysis",
+        "description": "Provide reports based on integrated data to understand business performance at a glance."
+      },
+      {
+        "title": "3. Conversion Optimization",
+        "description": "Maximize actual business conversion rates by analyzing user behavior patterns."
+      }
+    ],
+    "list2": [
+      {
+        "title": "1. Real-time Synchronization",
+        "description": "Prevent work interruptions by synchronizing data in real-time across all devices."
+      },
+      {
+        "title": "2. Collaboration Optimization",
+        "description": "Increase efficiency by providing powerful collaboration tools for team projects."
+      },
+      {
+        "title": "3. Integrated Platform",
+        "description": "Directly integrate frequently used apps and services into your workflow."
+      }
+    ]
+  }
+}

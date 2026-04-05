@@ -41,10 +41,12 @@ import footerRoutes from "routes/footer.routes";
 import bgImage from "assets/images/bg3.jpg";
 
 import { useThemeMode } from "context/ThemeModeContext";
+import { useTranslation } from "react-i18next";
 
 function HelpCenter() {
   const { mode } = useThemeMode();
   const isDark = mode === "dark";
+  const { t } = useTranslation("helpcenter");
 
   return (
     <>
@@ -90,10 +92,10 @@ function HelpCenter() {
                 },
               })}
             >
-              How can we help you?
+              {t("hero.title")}
             </MKTypography>
             <MKButton variant="gradient" color="info">
-              search issue
+              {t("hero.cta")}
             </MKButton>
           </Grid>
         </Container>
