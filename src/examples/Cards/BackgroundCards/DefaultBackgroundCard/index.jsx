@@ -57,7 +57,13 @@ function DefaultBackgroundCard({ image, label = "", title, description, action }
           {description}
         </MKTypography>
         {action.type === "internal" ? (
-          <MKButton component={Link} to={action.route} color="white" size="small" sx={{ my: 2 }}>
+          <MKButton
+            component={Link}
+            to={action.route}
+            color={action.color ? action.color : "white"}
+            size="small"
+            sx={{ my: 2 }}
+          >
             {action.label}
           </MKButton>
         ) : (
@@ -66,7 +72,7 @@ function DefaultBackgroundCard({ image, label = "", title, description, action }
             href={action.route}
             target="_blank"
             rel="noreferrer"
-            color="white"
+            color={action.color ? action.color : "white"}
             size="small"
             sx={{ my: 2 }}
           >
@@ -88,6 +94,7 @@ DefaultBackgroundCard.propTypes = {
     type: PropTypes.oneOf(["external", "internal"]).isRequired,
     route: PropTypes.string.isRequired,
     label: PropTypes.string.isRequired,
+    color: PropTypes.string,
   }).isRequired,
 };
 

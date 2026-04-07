@@ -88,6 +88,7 @@ function Features() {
                 type: "internal",
                 route: "/pages/support/help-center",
                 label: t("features.cards.0.cta"),
+                color: isDark ? "info" : "white",
               }}
             />
           </Grid>
@@ -118,6 +119,7 @@ function Features() {
                 type: "internal",
                 route: "/pages/support/help-center",
                 label: t("features.cards.1.cta"),
+                color: isDark ? "info" : "white",
               }}
             />
           </Grid>
