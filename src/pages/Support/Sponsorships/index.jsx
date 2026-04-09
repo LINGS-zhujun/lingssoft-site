@@ -37,7 +37,7 @@ import routes from "routes/routes";
 import footerRoutes from "routes/footer.routes";
 
 // Images
-import bgImage from "assets/images/sponsorships-hero.png";
+import bgImage from "assets/images/sponsorship-earnest-bg.png";
 
 import { useThemeMode } from "context/ThemeModeContext";
 import { useTranslation } from "react-i18next";
@@ -61,8 +61,8 @@ function Sponsorships() {
                 sx={{
                     backgroundImage: ({ functions: { linearGradient, rgba }, palette: { gradients } }) =>
                         `${linearGradient(
-                            rgba(gradients.info.main, 0.6),
-                            rgba(gradients.info.state, 0.6)
+                            rgba(gradients.dark.main, 0.6),
+                            rgba(gradients.dark.state, 0.6)
                         )}, url(${bgImage})`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
