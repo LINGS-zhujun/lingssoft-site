@@ -43,100 +43,95 @@ import { useThemeMode } from "context/ThemeModeContext";
 import { useTranslation } from "react-i18next";
 
 function CustomDevelopment() {
-    const { mode } = useThemeMode();
-    const { t } = useTranslation("customdev");
-    const isDark = mode === "dark";
+  const { mode } = useThemeMode();
+  const { t } = useTranslation("customdev");
+  const isDark = mode === "dark";
 
-    return (
-        <>
-            <DefaultNavbar
-                routes={routes}
-                sticky
-                light={isDark}
-                transparent={false}
-            />
-            <MKBox
-                minHeight="50vh"
-                width="100%"
-                sx={{
-                    backgroundImage: ({ functions: { linearGradient, rgba }, palette: { gradients } }) =>
-                        `${linearGradient(
-                            rgba(gradients.info.main, 0.6), // Using INFO gradient for Trust
-                            rgba(gradients.info.state, 0.6)
-                        )}, url(${bgImage})`,
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                    display: "grid",
-                    placeItems: "center",
-                }}
+  return (
+    <>
+      <DefaultNavbar routes={routes} sticky light={isDark} transparent={false} />
+      <MKBox
+        minHeight="50vh"
+        width="100%"
+        sx={{
+          backgroundImage: ({ functions: { linearGradient, rgba }, palette: { gradients } }) =>
+            `${linearGradient(
+              rgba(gradients.info.main, 0.6), // Using INFO gradient for Trust
+              rgba(gradients.info.state, 0.6)
+            )}, url(${bgImage})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          display: "grid",
+          placeItems: "center",
+        }}
+      >
+        <Container>
+          <Grid
+            container
+            item
+            xs={12}
+            lg={8}
+            flexDirection="column"
+            justifyContent="center"
+            alignItems="center"
+            sx={{ mx: "auto", textAlign: "center" }}
+          >
+            <MKTypography
+              variant="h1"
+              color="white"
+              mb={2}
+              sx={({ breakpoints, typography: { size } }) => ({
+                [breakpoints.down("md")]: {
+                  fontSize: size["3xl"],
+                },
+              })}
             >
-                <Container>
-                    <Grid
-                        container
-                        item
-                        xs={12}
-                        lg={8}
-                        flexDirection="column"
-                        justifyContent="center"
-                        alignItems="center"
-                        sx={{ mx: "auto", textAlign: "center" }}
-                    >
-                        <MKTypography
-                            variant="h1"
-                            color="white"
-                            mb={2}
-                            sx={({ breakpoints, typography: { size } }) => ({
-                                [breakpoints.down("md")]: {
-                                    fontSize: size["3xl"],
-                                },
-                            })}
-                        >
-                            {t("hero.title")}
-                        </MKTypography>
-                        <MKTypography variant="h4" color="white" opacity={0.9} mb={2}>
-                            {t("hero.subtitle")}
-                        </MKTypography>
-                        <MKTypography variant="body1" color="white" opacity={0.8} mb={4} px={{ xs: 0, lg: 6 }}>
-                            {t("hero.description")}
-                        </MKTypography>
-                        <MKButton
-                            variant="gradient"
-                            color={isDark ? "info" : "default"}
-                            sx={{
-                                color: ({ palette: { info, white } }) => isDark ? white.main : info.main,
-                                mt: 2
-                            }}
-                        >
-                            {t("hero.cta")}
-                        </MKButton>
-                    </Grid>
-                </Container>
-            </MKBox>
-            <Card
-                sx={({ palette: { white }, functions: { rgba }, boxShadows: { xxl } }) => ({
-                    p: 2,
-                    mx: { xs: 2, lg: 3 },
-                    mt: -8,
-                    mb: 4,
-                    backgroundColor: mode === "dark" ? "rgba(27, 31, 48, 0.85)" : rgba(white.main, 0.8),
-                    backdropFilter: "saturate(200%) blur(30px)",
-                    boxShadow: xxl,
-                    overflow: "hidden",
-                })}
+              {t("hero.title")}
+            </MKTypography>
+            <MKTypography variant="h4" color="white" opacity={0.9} mb={2}>
+              {t("hero.subtitle")}
+            </MKTypography>
+            <MKTypography variant="body1" color="white" opacity={0.8} mb={4} px={{ xs: 0, lg: 6 }}>
+              {t("hero.description")}
+            </MKTypography>
+            <MKButton
+              variant="gradient"
+              color={isDark ? "info" : "default"}
+              sx={{
+                color: ({ palette: { info, white } }) => (isDark ? white.main : info.main),
+                mt: 2,
+              }}
             >
-                <WhyChooseUs />
-                <Process />
-                <Container>
-                    <MKBox py={6}>
-                        <Contact />
-                    </MKBox>
-                </Container>
-            </Card>
-            <MKBox pt={6} px={1} mt={6}>
-                <DefaultFooter content={footerRoutes} />
-            </MKBox>
-        </>
-    );
+              {t("hero.cta")}
+            </MKButton>
+          </Grid>
+        </Container>
+      </MKBox>
+      <Card
+        sx={({ palette: { white }, functions: { rgba }, boxShadows: { xxl } }) => ({
+          p: 2,
+          mx: { xs: 2, lg: 3 },
+          mt: -8,
+          mb: 4,
+          backgroundColor: mode === "dark" ? "rgba(27, 31, 48, 0.85)" : rgba(white.main, 0.8),
+          backdropFilter: "saturate(200%) blur(30px)",
+          boxShadow: xxl,
+          overflow: "hidden",
+        })}
+      >
+        <WhyChooseUs />
+        <Process />
+        <Container>
+          <MKBox py={6}>
+            <Contact />
+          </MKBox>
+        </Container>
+      </Card>
+      <MKBox pt={6} px={1} mt={6}>
+        <DefaultFooter content={footerRoutes} />
+      </MKBox>
+    </>
+  );
 }
 
 export default CustomDevelopment;

@@ -43,84 +43,79 @@ import { useTranslation } from "react-i18next";
 import { useThemeMode } from "context/ThemeModeContext";
 
 function Solutions() {
-    const { t } = useTranslation("solutions");
-    const { mode } = useThemeMode();
-    const isDark = mode === "dark";
+  const { t } = useTranslation("solutions");
+  const { mode } = useThemeMode();
+  const isDark = mode === "dark";
 
-    return (
-        <>
-            <DefaultNavbar
-                routes={routes}
-                sticky
-                light={isDark}
-                transparent={false}
-            />
-            <MKBox
-                minHeight="75vh"
-                width="100%"
-                sx={{
-                    backgroundImage: ({ functions: { linearGradient, rgba }, palette: { gradients } }) =>
-                        `${linearGradient(
-                            rgba(gradients.dark.main, 0.6),
-                            rgba(gradients.dark.state, 0.6)
-                        )}, url(${bgImage})`,
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                    display: "grid",
-                    placeItems: "center",
-                }}
+  return (
+    <>
+      <DefaultNavbar routes={routes} sticky light={isDark} transparent={false} />
+      <MKBox
+        minHeight="75vh"
+        width="100%"
+        sx={{
+          backgroundImage: ({ functions: { linearGradient, rgba }, palette: { gradients } }) =>
+            `${linearGradient(
+              rgba(gradients.dark.main, 0.6),
+              rgba(gradients.dark.state, 0.6)
+            )}, url(${bgImage})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          display: "grid",
+          placeItems: "center",
+        }}
+      >
+        <Container>
+          <Grid
+            container
+            item
+            xs={12}
+            lg={8}
+            justifyContent="center"
+            alignItems="center"
+            flexDirection="column"
+            sx={{ mx: "auto", textAlign: "center" }}
+          >
+            <MKTypography
+              variant="h1"
+              color="white"
+              sx={({ breakpoints, typography: { size } }) => ({
+                [breakpoints.down("md")]: {
+                  fontSize: size["3xl"],
+                },
+              })}
             >
-                <Container>
-                    <Grid
-                        container
-                        item
-                        xs={12}
-                        lg={8}
-                        justifyContent="center"
-                        alignItems="center"
-                        flexDirection="column"
-                        sx={{ mx: "auto", textAlign: "center" }}
-                    >
-                        <MKTypography
-                            variant="h1"
-                            color="white"
-                            sx={({ breakpoints, typography: { size } }) => ({
-                                [breakpoints.down("md")]: {
-                                    fontSize: size["3xl"],
-                                },
-                            })}
-                        >
-                            {t("hero.title")}
-                        </MKTypography>
-                        <MKTypography variant="h4" color="white" mt={1}>
-                            {t("hero.subtitle")}
-                        </MKTypography>
-                        <MKTypography variant="body1" color="white" opacity={0.8} mt={1} mb={3}>
-                            {t("hero.description")}
-                        </MKTypography>
-                    </Grid>
-                </Container>
-            </MKBox>
-            <Card
-                sx={{
-                    p: 2,
-                    mx: { xs: 2, lg: 3 },
-                    mt: -8,
-                    mb: 4,
-                    boxShadow: ({ boxShadows: { xxl } }) => xxl,
-                    backgroundColor: isDark ? "rgba(12,10,24,0.85)" : "#ffffff", // Dynamic background
-                    color: isDark ? "#ffffff" : "inherit", // Dynamic text color base
-                }}
-            >
-                <Devops />
-                <Security />
-                <Education />
-            </Card>
-            <MKBox pt={6} px={1} mt={6}>
-                <DefaultFooter content={footerRoutes} />
-            </MKBox>
-        </>
-    );
+              {t("hero.title")}
+            </MKTypography>
+            <MKTypography variant="h4" color="white" mt={1}>
+              {t("hero.subtitle")}
+            </MKTypography>
+            <MKTypography variant="body1" color="white" opacity={0.8} mt={1} mb={3}>
+              {t("hero.description")}
+            </MKTypography>
+          </Grid>
+        </Container>
+      </MKBox>
+      <Card
+        sx={{
+          p: 2,
+          mx: { xs: 2, lg: 3 },
+          mt: -8,
+          mb: 4,
+          boxShadow: ({ boxShadows: { xxl } }) => xxl,
+          backgroundColor: isDark ? "rgba(12,10,24,0.85)" : "#ffffff", // Dynamic background
+          color: isDark ? "#ffffff" : "inherit", // Dynamic text color base
+        }}
+      >
+        <Devops />
+        <Security />
+        <Education />
+      </Card>
+      <MKBox pt={6} px={1} mt={6}>
+        <DefaultFooter content={footerRoutes} />
+      </MKBox>
+    </>
+  );
 }
 
 export default Solutions;

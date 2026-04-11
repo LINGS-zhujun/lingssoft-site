@@ -45,11 +45,7 @@ function Faq() {
 
   return (
     <>
-      <DefaultNavbar
-        routes={routes}
-        sticky
-        light={isDark}
-      />
+      <DefaultNavbar routes={routes} sticky light={isDark} />
       <MKBox component="section" pt={20} pb={12}>
         <Container sx={{ mb: 8 }}>
           <Grid container spacing={3}>

@@ -33,10 +33,7 @@ import routes from "routes/routes";
 function SimpleLayout({ children }) {
   return (
     <MKBox height="100vh" display="flex" flexDirection="column" justifyContent="space-between">
-      <DefaultNavbar
-        routes={routes}
-        transparent
-      />
+      <DefaultNavbar routes={routes} transparent />
       <MKBox width="calc(100% - 2rem)" px={1} mx="auto">
         <Grid container spacing={1} justifyContent="center">
           <Grid item xs={11} sm={9} md={5} lg={4} xl={3}>

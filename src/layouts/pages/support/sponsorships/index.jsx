@@ -17,5 +17,5 @@ Coded by www.creative-tim.com
 import Sponsorships from "pages/Support/Sponsorships";
 
 export default function SponsorshipsPage() {
-    return <Sponsorships />;
+  return <Sponsorships />;
 }

@@ -27,8 +27,7 @@
         "reveal": "always",
         "panel": "dedicated"
       }
-    }
-    ,
+    },
     {
       "label": "npm: dev:vite",
       "type": "shell",
@@ -58,5 +57,3 @@
     }
   ]
 }
-
-

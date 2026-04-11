@@ -122,40 +122,19 @@
         "id": "starter",
         "badgeLabel": "starter",
         "actionLabel": "立即加入",
-        "specs": [
-          "2 名团队成员",
-          "20GB 云存储",
-          "集成支持",
-          "Sketch 文件",
-          "API 访问",
-          "完整文档"
-        ]
+        "specs": ["2 名团队成员", "20GB 云存储", "集成支持", "Sketch 文件", "API 访问", "完整文档"]
       },
       {
         "id": "premium",
         "badgeLabel": "premium",
         "actionLabel": "试用高级版",
-        "specs": [
-          "10 名团队成员",
-          "40GB 云存储",
-          "集成支持",
-          "Sketch 文件",
-          "API 访问",
-          "完整文档"
-        ]
+        "specs": ["10 名团队成员", "40GB 云存储", "集成支持", "Sketch 文件", "API 访问", "完整文档"]
       },
       {
         "id": "enterprise",
         "badgeLabel": "enterprise",
         "actionLabel": "联系我们",
-        "specs": [
-          "不限团队成员",
-          "100GB 云存储",
-          "集成支持",
-          "Sketch 文件",
-          "API 访问",
-          "完整文档"
-        ]
+        "specs": ["不限团队成员", "100GB 云存储", "集成支持", "Sketch 文件", "API 访问", "完整文档"]
       }
     ]
   },
@@ -165,12 +144,7 @@
     "planTitle": "Lifetime Membership",
     "planDescription": "每个套餐都附带免费无限更新和高级支持，并在 30 天内提供退款保障。",
     "whatsIncluded": "包含内容",
-    "features": [
-      "私有代码访问",
-      "所有仓库免费浏览",
-      "专业会员账号",
-      "支持团队全程协助"
-    ],
+    "features": ["私有代码访问", "所有仓库免费浏览", "专业会员账号", "支持团队全程协助"],
     "cta": {
       "tagline": "一次付费，永久拥有",
       "button": "立即获取",

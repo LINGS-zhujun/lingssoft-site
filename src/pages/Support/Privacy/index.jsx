@@ -91,7 +91,9 @@ function Privacy() {
               <Card
                 sx={({ palette, boxShadows }) => ({
                   backgroundColor:
-                    palette.mode === "dark" ? "rgba(27, 31, 48, 0.85)" : "rgba(255, 255, 255, 0.85)",
+                    palette.mode === "dark"
+                      ? "rgba(27, 31, 48, 0.85)"
+                      : "rgba(255, 255, 255, 0.85)",
                   backdropFilter: "saturate(200%) blur(30px)",
                   color: palette.mode === "dark" ? "white" : palette.text.primary,
                   boxShadow: boxShadows.xxl,

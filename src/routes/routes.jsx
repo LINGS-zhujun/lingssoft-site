@@ -145,7 +145,6 @@ const routes = [
         route: "/pages/support/sponsorships",
         component: Sponsorships,
       },
-
     ],
   },
   {

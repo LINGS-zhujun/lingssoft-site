@@ -20,13 +20,7 @@ import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import routes from "routes/routes";
 
 function NavbarBlur() {
-  return (
-    <DefaultNavbar
-      routes={routes}
-      relative
-      center
-    />
-  );
+  return <DefaultNavbar routes={routes} relative center />;
 }
 
 export default NavbarBlur;

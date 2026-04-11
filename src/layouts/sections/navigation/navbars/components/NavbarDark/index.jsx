@@ -25,13 +25,7 @@ import routes from "routes/routes";
 function NavbarDark() {
   return (
     <MKBox variant="gradient" bgColor="dark" shadow="sm" py={0.25}>
-      <DefaultNavbar
-        routes={routes}
-        transparent
-        relative
-        light
-        center
-      />
+      <DefaultNavbar routes={routes} transparent relative light center />
     </MKBox>
   );
 }

@@ -39,9 +39,7 @@ function IllustrationLayout({
   return (
     <MKBox width="100%" height="100%" bgColor="white">
       <MKBox position="absolute" width="100%" mt={1}>
-        <DefaultNavbar
-          routes={routes}
-        />
+        <DefaultNavbar routes={routes} />
       </MKBox>
       <Grid container>
         <Grid item xs={12} lg={6}>

@@ -9,8 +9,7 @@
       "webRoot": "${workspaceFolder}/src",
       "preLaunchTask": "npm: start",
       "breakOnLoad": true
-    }
-    ,
+    },
     {
       "name": "Launch Vite",
       "type": "pwa-chrome",

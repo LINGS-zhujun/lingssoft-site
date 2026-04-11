@@ -32,7 +32,14 @@
   "influence": {
     "title": "源自行业领军者的模式",
     "description": "LINGSSOFT 将客户信赖的技术领导者——OpenAI、Palo Alto Networks、Coursera、Springer Nature 的成熟模式融合为统一策略。",
-    "brands": ["OpenAI", "Palo Alto Networks", "CrowdStrike", "Coursera", "Springer Nature", "Elsevier"]
+    "brands": [
+      "OpenAI",
+      "Palo Alto Networks",
+      "CrowdStrike",
+      "Coursera",
+      "Springer Nature",
+      "Elsevier"
+    ]
   },
   "principles": {
     "title": "交付原则",

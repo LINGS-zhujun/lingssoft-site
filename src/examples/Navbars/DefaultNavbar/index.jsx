@@ -397,90 +397,90 @@ function DefaultNavbar({
   const renderNestedRoutes = visibleRoutes.map(({ collapse, columns }) =>
     collapse && !columns
       ? collapse.map(({ name: parentName, collapse: nestedCollapse }) => {
-        let template;
+          let template;
 
-        if (parentName === nestedDropdownName) {
-          template =
-            nestedCollapse &&
-            nestedCollapse.map((item, nestedIndex) => {
-              const linkComponent = {
-                component: MuiLink,
-                href: item.href,
-                target: "_blank",
-                rel: "noreferrer",
-              };
+          if (parentName === nestedDropdownName) {
+            template =
+              nestedCollapse &&
+              nestedCollapse.map((item, nestedIndex) => {
+                const linkComponent = {
+                  component: MuiLink,
+                  href: item.href,
+                  target: "_blank",
+                  rel: "noreferrer",
+                };
 
-              const routeComponent = {
-                component: Link,
-                to: item.route,
-              };
+                const routeComponent = {
+                  component: Link,
+                  to: item.route,
+                };
 
-              return (
-                <MKTypography
-                  key={getKey(item, `nested-${nestedIndex}`)}
-                  {...(item.route ? routeComponent : linkComponent)}
-                  display="flex"
-                  justifyContent="space-between"
-                  alignItems="center"
-                  variant="button"
-                  textTransform="capitalize"
-                  minWidth={item.description ? "14rem" : "12rem"}
-                  color={isDark ? "white" : item.description ? "dark" : "text"}
-                  fontWeight={isActiveRoute(item.route) || item.description ? "bold" : "regular"}
-                  py={item.description ? 1 : 0.625}
-                  px={2}
-                  sx={({ palette: { grey, dark, text }, borders: { borderRadius } }) => ({
-                    borderRadius: borderRadius.md,
-                    cursor: "pointer",
-                    transition: "all 300ms linear",
-                    color: isDark ? grey[60] : text.primary,
-                    opacity: 1,
-                    "& *": {
+                return (
+                  <MKTypography
+                    key={getKey(item, `nested-${nestedIndex}`)}
+                    {...(item.route ? routeComponent : linkComponent)}
+                    display="flex"
+                    justifyContent="space-between"
+                    alignItems="center"
+                    variant="button"
+                    textTransform="capitalize"
+                    minWidth={item.description ? "14rem" : "12rem"}
+                    color={isDark ? "white" : item.description ? "dark" : "text"}
+                    fontWeight={isActiveRoute(item.route) || item.description ? "bold" : "regular"}
+                    py={item.description ? 1 : 0.625}
+                    px={2}
+                    sx={({ palette: { grey, dark, text }, borders: { borderRadius } }) => ({
+                      borderRadius: borderRadius.md,
+                      cursor: "pointer",
+                      transition: "all 300ms linear",
                       color: isDark ? grey[60] : text.primary,
                       opacity: 1,
-                    },
-
-                    "&:hover": {
-                      backgroundColor: isDark ? grey[800] : grey[200],
-                      color: isDark ? grey[60] : dark.main,
-
                       "& *": {
-                        color: isDark ? grey[60] : dark.main,
+                        color: isDark ? grey[60] : text.primary,
+                        opacity: 1,
                       },
-                    },
-                  })}
-                >
-                  {item.description ? (
-                    <MKBox>
-                      {getLabel(item)}
-                      <MKTypography
-                        display="block"
-                        variant="button"
-                        color={isDark ? "white" : "text"}
-                        fontWeight="regular"
-                        sx={{ transition: "all 300ms linear" }}
-                      >
-                        {item.description}
-                      </MKTypography>
-                    </MKBox>
-                  ) : (
-                    getLabel(item)
-                  )}
-                  {item.collapse && (
-                    <Icon
-                      fontSize="small"
-                      sx={{ fontWeight: "normal", verticalAlign: "middle", mr: -0.5 }}
-                    >
-                      keyboard_arrow_right
-                    </Icon>
-                  )}
-                </MKTypography>
-              );
-            });
-        }
 
-        return template;
-      })
+                      "&:hover": {
+                        backgroundColor: isDark ? grey[800] : grey[200],
+                        color: isDark ? grey[60] : dark.main,
+
+                        "& *": {
+                          color: isDark ? grey[60] : dark.main,
+                        },
+                      },
+                    })}
+                  >
+                    {item.description ? (
+                      <MKBox>
+                        {getLabel(item)}
+                        <MKTypography
+                          display="block"
+                          variant="button"
+                          color={isDark ? "white" : "text"}
+                          fontWeight="regular"
+                          sx={{ transition: "all 300ms linear" }}
+                        >
+                          {item.description}
+                        </MKTypography>
+                      </MKBox>
+                    ) : (
+                      getLabel(item)
+                    )}
+                    {item.collapse && (
+                      <Icon
+                        fontSize="small"
+                        sx={{ fontWeight: "normal", verticalAlign: "middle", mr: -0.5 }}
+                      >
+                        keyboard_arrow_right
+                      </Icon>
+                    )}
+                  </MKTypography>
+                );
+              });
+          }
+
+          return template;
+        })
       : null
   );
 
@@ -555,8 +555,8 @@ function DefaultNavbar({
             backdropFilter: transparent
               ? "none"
               : palette.mode === "dark"
-                ? "saturate(160%) blur(20px)"
-                : "saturate(200%) blur(30px)",
+              ? "saturate(160%) blur(20px)"
+              : "saturate(200%) blur(30px)",
           };
         }}
       >

@@ -27,38 +27,25 @@
       "year": "2024",
       "title": "播种零信任分析",
       "description": "安全编排套件把全部企业信号串入可验证的账本，平均响应时间缩短 42%。",
-      "milestones": [
-        "自适应策略根技术申请专利",
-        "获得 GovTech 信任测试奖",
-        "首个双语 SOC 合作落地"
-      ]
+      "milestones": ["自适应策略根技术申请专利", "获得 GovTech 信任测试奖", "首个双语 SOC 合作落地"]
     },
     {
       "year": "2023",
       "title": "终身学习树冠",
       "description": "把 AR 教室与 AI 导师整合为单一旅程，帮助 12 万名学习者在岗位上完成再培训。",
-      "milestones": [
-        "发布 Learning Pulse API",
-        "成立教师助推基金"
-      ]
+      "milestones": ["发布 Learning Pulse API", "成立教师助推基金"]
     },
     {
       "year": "2022",
       "title": "AI 伦理宪章",
       "description": "由工程师、教育者与法律专家共同主持透明评审仪式，让每次发布都可追溯。",
-      "milestones": [
-        "成立独立安全委员会",
-        "推出首套多语言合规工具包"
-      ]
+      "milestones": ["成立独立安全委员会", "推出首套多语言合规工具包"]
     },
     {
       "year": "2020",
       "title": "定制工程的根基",
       "description": "LINGSSOFT 诞生于一个信念：有使命的软件如同树木，必须顺应生态并回馈更多。",
-      "milestones": [
-        "交付首个安全自动化项目",
-        "与三所大学建立合作"
-      ]
+      "milestones": ["交付首个安全自动化项目", "与三所大学建立合作"]
     }
   ],
   "leaves": {

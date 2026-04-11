@@ -48,9 +48,7 @@ import sunCloud from "assets/images/small-logos/icon-sun-cloud.png";
 function VirtualReality() {
   return (
     <>
-      <DefaultNavbar
-        routes={routes}
-      />
+      <DefaultNavbar routes={routes} />
       <MKBox
         component="header"
         minHeight="100vh"

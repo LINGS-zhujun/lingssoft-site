@@ -31,9 +31,7 @@ export default function ThemeSwitcher() {
           },
         })}
       >
-        <Icon fontSize="medium">
-          {isDark ? "light_mode" : "dark_mode"}
-        </Icon>
+        <Icon fontSize="medium">{isDark ? "light_mode" : "dark_mode"}</Icon>
       </IconButton>
     </Tooltip>
   );

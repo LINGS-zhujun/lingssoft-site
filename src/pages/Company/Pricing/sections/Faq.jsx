@@ -61,11 +61,13 @@ function Faq() {
       <Container>
         <Grid container justifyContent="center">
           <Grid item xs={12} md={10}>
-            <Card sx={{
-              backgroundColor: isDark ? "rgba(255, 255, 255, 0.05)" : "#ffffff",
-              color: isDark ? "white" : "inherit",
-              boxShadow: isDark ? "none" : undefined,
-            }}>
+            <Card
+              sx={{
+                backgroundColor: isDark ? "rgba(255, 255, 255, 0.05)" : "#ffffff",
+                color: isDark ? "white" : "inherit",
+                boxShadow: isDark ? "none" : undefined,
+              }}
+            >
               <MKBox
                 variant="gradient"
                 bgColor="error"

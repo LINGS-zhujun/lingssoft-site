@@ -1,38 +1,38 @@
 {
-    "hero": {
-        "title": "成为赞助商",
-        "subtitle": "助力创新与增长",
-        "description": "您的支持赋予我们构建更好的开源工具和可持续软件解决方案的力量。加入我们，共塑未来。",
-        "cta": "支持我们"
-    },
-    "channels": {
-        "title": "赞助渠道",
-        "description": "选择最适合您的支持方式。",
-        "items": {
-            "individual": {
-                "title": "个人赞助",
-                "description": "通过 GitHub Sponsors 或 Patreon 支持我们。非常适合粉丝和日常用户。"
-            },
-            "corporate": {
-                "title": "企业赞助",
-                "description": "适合使用我们要工具的企业。获得徽标展示和优先支持。"
-            },
-            "partnership": {
-                "title": "合作伙伴",
-                "description": "在长期项目和战略计划上进行合作。"
-            },
-            "one_time": {
-                "title": "一次性捐赠",
-                "description": "通过 PayPal 或加密货币进行单次捐赠。"
-            }
-        }
-    },
-    "donation": {
-        "title": "直接捐赠",
-        "description": "直接支持我们的运营。",
-        "bank": "银行转账",
-        "crypto": "加密钱包",
-        "copy": "复制",
-        "copied": "已复制！"
+  "hero": {
+    "title": "成为赞助商",
+    "subtitle": "助力创新与增长",
+    "description": "您的支持赋予我们构建更好的开源工具和可持续软件解决方案的力量。加入我们，共塑未来。",
+    "cta": "支持我们"
+  },
+  "channels": {
+    "title": "赞助渠道",
+    "description": "选择最适合您的支持方式。",
+    "items": {
+      "individual": {
+        "title": "个人赞助",
+        "description": "通过 GitHub Sponsors 或 Patreon 支持我们。非常适合粉丝和日常用户。"
+      },
+      "corporate": {
+        "title": "企业赞助",
+        "description": "适合使用我们要工具的企业。获得徽标展示和优先支持。"
+      },
+      "partnership": {
+        "title": "合作伙伴",
+        "description": "在长期项目和战略计划上进行合作。"
+      },
+      "one_time": {
+        "title": "一次性捐赠",
+        "description": "通过 PayPal 或加密货币进行单次捐赠。"
+      }
     }
+  },
+  "donation": {
+    "title": "直接捐赠",
+    "description": "直接支持我们的运营。",
+    "bank": "银行转账",
+    "crypto": "加密钱包",
+    "copy": "复制",
+    "copied": "已复制！"
+  }
 }

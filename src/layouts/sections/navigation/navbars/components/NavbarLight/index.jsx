@@ -25,12 +25,7 @@ import routes from "routes/routes";
 function NavbarLight() {
   return (
     <MKBox bgColor="white" shadow="sm" py={0.25}>
-      <DefaultNavbar
-        routes={routes}
-        transparent
-        relative
-        center
-      />
+      <DefaultNavbar routes={routes} transparent relative center />
     </MKBox>
   );
 }

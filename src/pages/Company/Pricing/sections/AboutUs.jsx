@@ -51,8 +51,15 @@ function AboutUs() {
     <MKBox component="section" py={12} px={1}>
       <Container>
         <Grid container item xs={12} lg={8}>
-          <MKTypography variant="h3" color={isDark ? "white" : "dark"}>{title}</MKTypography>
-          <MKTypography variant="body2" fontWeight="regular" color={isDark ? "white" : "text"} opacity={isDark ? 0.7 : 1}>
+          <MKTypography variant="h3" color={isDark ? "white" : "dark"}>
+            {title}
+          </MKTypography>
+          <MKTypography
+            variant="body2"
+            fontWeight="regular"
+            color={isDark ? "white" : "text"}
+            opacity={isDark ? 0.7 : 1}
+          >
             {description}
           </MKTypography>
         </Grid>
@@ -72,7 +79,12 @@ function AboutUs() {
                       <Icon sx={{ fontWeight: "bold" }}>done</Icon>
                     </MKTypography>
                     <MKBox pl={2}>
-                      <MKTypography variant="button" color={isDark ? "white" : "text"} fontWeight="bold" opacity={isDark ? 0.9 : 1}>
+                      <MKTypography
+                        variant="button"
+                        color={isDark ? "white" : "text"}
+                        fontWeight="bold"
+                        opacity={isDark ? 0.9 : 1}
+                      >
                         {item}
                       </MKTypography>
                     </MKBox>

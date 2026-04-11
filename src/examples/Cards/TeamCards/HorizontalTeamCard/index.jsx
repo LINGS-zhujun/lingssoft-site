@@ -46,11 +46,17 @@ function HorizontalTeamCard({ image, name, position, description }) {
         </Grid>
         <Grid item xs={12} md={6} lg={8} sx={{ my: "auto" }}>
           <MKBox pt={{ xs: 1, lg: 2.5 }} pb={2.5} pr={4} pl={{ xs: 4, lg: 1 }} lineHeight={1}>
-            <MKTypography variant="h5" color={isDark ? "white" : "dark"}>{name}</MKTypography>
+            <MKTypography variant="h5" color={isDark ? "white" : "dark"}>
+              {name}
+            </MKTypography>
             <MKTypography variant="h6" color={position.color} mb={1}>
               {position.label}
             </MKTypography>
-            <MKTypography variant="body2" color={isDark ? "white" : "text"} opacity={isDark ? 0.8 : 1}>
+            <MKTypography
+              variant="body2"
+              color={isDark ? "white" : "text"}
+              opacity={isDark ? 0.8 : 1}
+            >
               {description}
             </MKTypography>
           </MKBox>

@@ -26,70 +26,80 @@ import { useTranslation } from "react-i18next";
 import { useThemeMode } from "context/ThemeModeContext";
 
 function Education() {
-    const { t } = useTranslation("solutions");
-    const { mode } = useThemeMode();
-    const isDark = mode === "dark";
+  const { t } = useTranslation("solutions");
+  const { mode } = useThemeMode();
+  const isDark = mode === "dark";
 
-    return (
-        <MKBox component="section" py={12}>
-            <Container>
-                <Grid container alignItems="center" justifyContent="center">
-                    <Grid item xs={12} lg={6} sx={{ mb: { xs: 5, lg: 0 } }}>
-                        <MKBadge
-                            badgeContent="Education"
-                            variant="contained"
-                            color="warning"
-                            container
-                            sx={{ mb: 2 }}
-                        />
-                        <MKTypography variant="h2" mb={2} color={isDark ? "white" : "dark"}>
-                            {t("education.title")}
-                        </MKTypography>
-                        <MKTypography variant="body1" color={isDark ? "white" : "text"} opacity={isDark ? 0.8 : 1} mb={3}>
-                            {t("education.description")}
-                        </MKTypography>
-                        <Grid container spacing={2}>
-                            {t("education.features", { returnObjects: true }).map((feature, index) => (
-                                <Grid item xs={12} key={index}>
-                                    <MKBox display="flex" alignItems="center" p={1}>
-                                        <MKBox
-                                            width="2rem"
-                                            height="2rem"
-                                            variant="gradient"
-                                            bgColor="warning"
-                                            color="white"
-                                            coloredShadow="warning"
-                                            display="flex"
-                                            alignItems="center"
-                                            justifyContent="center"
-                                            borderRadius="xl"
-                                        >
-                                            <i className="fas fa-graduation-cap" />
-                                        </MKBox>
-                                        <MKTypography variant="body2" color={isDark ? "white" : "text"} opacity={isDark ? 0.8 : 1} pl={2}>
-                                            {feature}
-                                        </MKTypography>
-                                    </MKBox>
-                                </Grid>
-                            ))}
-                        </Grid>
-                    </Grid>
-                    <Grid item xs={12} lg={6} sx={{ pl: { lg: 6 } }}>
-                        {/* Placeholder for an image or graphic */}
-                        <MKBox
-                            minHeight="25rem"
-                            borderRadius="xl"
-                            sx={{
-                                backgroundImage: `url(https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)`,
-                                backgroundSize: "cover",
-                                backgroundPosition: "center",
-                            }}
-                        />
-                    </Grid>
+  return (
+    <MKBox component="section" py={12}>
+      <Container>
+        <Grid container alignItems="center" justifyContent="center">
+          <Grid item xs={12} lg={6} sx={{ mb: { xs: 5, lg: 0 } }}>
+            <MKBadge
+              badgeContent="Education"
+              variant="contained"
+              color="warning"
+              container
+              sx={{ mb: 2 }}
+            />
+            <MKTypography variant="h2" mb={2} color={isDark ? "white" : "dark"}>
+              {t("education.title")}
+            </MKTypography>
+            <MKTypography
+              variant="body1"
+              color={isDark ? "white" : "text"}
+              opacity={isDark ? 0.8 : 1}
+              mb={3}
+            >
+              {t("education.description")}
+            </MKTypography>
+            <Grid container spacing={2}>
+              {t("education.features", { returnObjects: true }).map((feature, index) => (
+                <Grid item xs={12} key={index}>
+                  <MKBox display="flex" alignItems="center" p={1}>
+                    <MKBox
+                      width="2rem"
+                      height="2rem"
+                      variant="gradient"
+                      bgColor="warning"
+                      color="white"
+                      coloredShadow="warning"
+                      display="flex"
+                      alignItems="center"
+                      justifyContent="center"
+                      borderRadius="xl"
+                    >
+                      <i className="fas fa-graduation-cap" />
+                    </MKBox>
+                    <MKTypography
+                      variant="body2"
+                      color={isDark ? "white" : "text"}
+                      opacity={isDark ? 0.8 : 1}
+                      pl={2}
+                    >
+                      {feature}
+                    </MKTypography>
+                  </MKBox>
                 </Grid>
-            </Container>
-        </MKBox>
-    );
+              ))}
+            </Grid>
+          </Grid>
+          <Grid item xs={12} lg={6} sx={{ pl: { lg: 6 } }}>
+            {/* Placeholder for an image or graphic */}
+            <MKBox
+              minHeight="25rem"
+              borderRadius="xl"
+              sx={{
+                backgroundImage: `url(https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}
+            />
+          </Grid>
+        </Grid>
+      </Container>
+    </MKBox>
+  );
 }
 
 export default Education;

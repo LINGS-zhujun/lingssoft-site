@@ -32,11 +32,7 @@ import routes from "routes/routes";
 function BasicLayout({ image, children }) {
   return (
     <>
-      <DefaultNavbar
-        routes={routes}
-        transparent
-        light
-      />
+      <DefaultNavbar routes={routes} transparent light />
       <MKBox
         position="absolute"
         top={0}

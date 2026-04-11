@@ -31,7 +31,12 @@ function ListItem({ title, children }) {
       <MKTypography variant="h5" mb={1} color={isDark ? "white" : "dark"}>
         {title}
       </MKTypography>
-      <MKTypography variant="body2" color={isDark ? "white" : "text"} opacity={isDark ? 0.8 : 1} mb={2}>
+      <MKTypography
+        variant="body2"
+        color={isDark ? "white" : "text"}
+        opacity={isDark ? 0.8 : 1}
+        mb={2}
+      >
         {children}
       </MKTypography>
     </MKBox>

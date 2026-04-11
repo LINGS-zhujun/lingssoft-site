@@ -82,12 +82,7 @@ function History() {
 
   return (
     <>
-      <DefaultNavbar
-        routes={routes}
-        sticky
-        light={isDark}
-        transparent={false}
-      />
+      <DefaultNavbar routes={routes} sticky light={isDark} transparent={false} />
       <MKBox
         component="header"
         minHeight="75vh"
@@ -110,7 +105,12 @@ function History() {
         <Container sx={{ position: "relative", zIndex: 1 }}>
           <Grid container spacing={4} alignItems="center">
             <Grid item xs={12} md={7}>
-              <MKTypography variant="button" color="white" fontWeight="bold" textTransform="uppercase">
+              <MKTypography
+                variant="button"
+                color="white"
+                fontWeight="bold"
+                textTransform="uppercase"
+              >
                 {hero.eyebrow || "Company history"}
               </MKTypography>
               <MKTypography variant="h2" mt={1} mb={2} color="white">
@@ -259,7 +259,11 @@ function History() {
                     <Grid container spacing={3} alignItems="flex-start">
                       <Grid item xs={12} md={3}>
                         <MKBox display="flex" alignItems="center" gap={1}>
-                          <MKTypography variant="h3" fontWeight="bold" sx={{ color: colors.textPrimary }}>
+                          <MKTypography
+                            variant="h3"
+                            fontWeight="bold"
+                            sx={{ color: colors.textPrimary }}
+                          >
                             {item.year}
                           </MKTypography>
                           {isFirst && (

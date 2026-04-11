@@ -1,64 +1,64 @@
 {
-    "hero": {
-        "title": "定制开发服务",
-        "subtitle": "将您的想法转化为现实",
-        "description": "我们提供符合您独特业务需求的定制软件解决方案。从初步咨询到最终部署，我们是您数字化转型的合作伙伴。",
-        "cta": "开始您的项目"
-    },
-    "process": {
-        "title": "开发流程",
-        "description": "透明敏捷的工作流程，确保高质量的成果。",
-        "steps": {
-            "consultation": {
-                "title": "咨询",
-                "description": "深入了解您的需求和业务目标。"
-            },
-            "planning": {
-                "title": "规划",
-                "description": "定义路线图、架构和规格说明。"
-            },
-            "design": {
-                "title": "设计",
-                "description": "创建直观的UI/UX和视觉原型。"
-            },
-            "development": {
-                "title": "开发",
-                "description": "使用稳健的技术构建解决方案。"
-            },
-            "testing": {
-                "title": "测试",
-                "description": "严格的质量保证(QA)以确保无错误的体验。"
-            },
-            "deployment": {
-                "title": "部署",
-                "description": "向世界发布您的产品。"
-            },
-            "maintenance": {
-                "title": "维护",
-                "description": "持续的支持和更新。"
-            }
-        }
-    },
-    "whyChooseUs": {
-        "title": "为什么选择我们？",
-        "description": "通过结合技术专长和深厚的行业知识，我们提供卓越的成果。",
-        "items": {
-            "global": {
-                "title": "全球影响力",
-                "description": "为全球客户提供可扩展的解决方案。"
-            },
-            "value": {
-                "title": "高价值",
-                "description": "在不妥协质量的前提下承诺具有成本效益的开发。"
-            },
-            "innovative": {
-                "title": "创新技术",
-                "description": "采用尖端技术以保持领先。"
-            },
-            "agile": {
-                "title": "敏捷团队",
-                "description": "灵活快速地响应您不断变化的需求。"
-            }
-        }
+  "hero": {
+    "title": "定制开发服务",
+    "subtitle": "将您的想法转化为现实",
+    "description": "我们提供符合您独特业务需求的定制软件解决方案。从初步咨询到最终部署，我们是您数字化转型的合作伙伴。",
+    "cta": "开始您的项目"
+  },
+  "process": {
+    "title": "开发流程",
+    "description": "透明敏捷的工作流程，确保高质量的成果。",
+    "steps": {
+      "consultation": {
+        "title": "咨询",
+        "description": "深入了解您的需求和业务目标。"
+      },
+      "planning": {
+        "title": "规划",
+        "description": "定义路线图、架构和规格说明。"
+      },
+      "design": {
+        "title": "设计",
+        "description": "创建直观的UI/UX和视觉原型。"
+      },
+      "development": {
+        "title": "开发",
+        "description": "使用稳健的技术构建解决方案。"
+      },
+      "testing": {
+        "title": "测试",
+        "description": "严格的质量保证(QA)以确保无错误的体验。"
+      },
+      "deployment": {
+        "title": "部署",
+        "description": "向世界发布您的产品。"
+      },
+      "maintenance": {
+        "title": "维护",
+        "description": "持续的支持和更新。"
+      }
     }
+  },
+  "whyChooseUs": {
+    "title": "为什么选择我们？",
+    "description": "通过结合技术专长和深厚的行业知识，我们提供卓越的成果。",
+    "items": {
+      "global": {
+        "title": "全球影响力",
+        "description": "为全球客户提供可扩展的解决方案。"
+      },
+      "value": {
+        "title": "高价值",
+        "description": "在不妥协质量的前提下承诺具有成本效益的开发。"
+      },
+      "innovative": {
+        "title": "创新技术",
+        "description": "采用尖端技术以保持领先。"
+      },
+      "agile": {
+        "title": "敏捷团队",
+        "description": "灵活快速地响应您不断变化的需求。"
+      }
+    }
+  }
 }

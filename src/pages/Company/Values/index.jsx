@@ -56,10 +56,16 @@ function Values() {
 
   const hero = useMemo(() => t("hero", { returnObjects: true }) || {}, [t, i18n.language]);
   const principles = useMemo(
-    () => (Array.isArray(t("principles", { returnObjects: true })) ? t("principles", { returnObjects: true }) : []),
+    () =>
+      Array.isArray(t("principles", { returnObjects: true }))
+        ? t("principles", { returnObjects: true })
+        : [],
     [t, i18n.language]
   );
-  const commitments = useMemo(() => t("commitments", { returnObjects: true }) || {}, [t, i18n.language]);
+  const commitments = useMemo(
+    () => t("commitments", { returnObjects: true }) || {},
+    [t, i18n.language]
+  );
   const culture = useMemo(() => t("culture", { returnObjects: true }) || {}, [t, i18n.language]);
   const cta = useMemo(() => t("cta", { returnObjects: true }) || {}, [t, i18n.language]);
 
@@ -76,12 +82,7 @@ function Values() {
 
   return (
     <>
-      <DefaultNavbar
-        routes={routes}
-        sticky
-        light={isDark}
-        transparent={false}
-      />
+      <DefaultNavbar routes={routes} sticky light={isDark} transparent={false} />
       <MKBox
         component="header"
         minHeight="70vh"
@@ -109,7 +110,11 @@ function Values() {
               <MKTypography variant="h2" mt={1} mb={1.5} color="white">
                 {hero.title || "We grow with purpose"}
               </MKTypography>
-              <MKTypography variant="body1" color="white" sx={{ opacity: 0.8, maxWidth: 520, lineHeight: 1.7 }}>
+              <MKTypography
+                variant="body1"
+                color="white"
+                sx={{ opacity: 0.8, maxWidth: 520, lineHeight: 1.7 }}
+              >
                 {hero.description ||
                   "Inspired by evergreen culture pillars, we translate bold ideas into dependable systems."}
               </MKTypography>
@@ -167,7 +172,12 @@ function Values() {
                   p: 3,
                 }}
               >
-                <MKTypography variant="subtitle2" textTransform="uppercase" sx={{ color: colors.textSecondary }} mb={0.5}>
+                <MKTypography
+                  variant="subtitle2"
+                  textTransform="uppercase"
+                  sx={{ color: colors.textSecondary }}
+                  mb={0.5}
+                >
                   {t("principlesTitle")}
                 </MKTypography>
                 <MKTypography variant="h4" sx={{ color: colors.textPrimary }}>
@@ -200,7 +210,9 @@ function Values() {
                     <MKTypography variant="h4" sx={{ color: colors.textPrimary }}>
                       {principle.title}
                     </MKTypography>
-                    <Icon sx={{ color: colors.accent }}>{index % 2 === 0 ? "flare" : "favorite"}</Icon>
+                    <Icon sx={{ color: colors.accent }}>
+                      {index % 2 === 0 ? "flare" : "favorite"}
+                    </Icon>
                   </MKBox>
                   <MKTypography variant="body2" mb={2} sx={{ color: colors.textSecondary }}>
                     {principle.description}

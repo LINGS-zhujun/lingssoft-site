@@ -47,11 +47,7 @@ function Rental() {
 
   return (
     <>
-      <DefaultNavbar
-        routes={routes}
-        transparent
-        light={isDark}
-      />
+      <DefaultNavbar routes={routes} transparent light={isDark} />
       <MKBox
         minHeight="50vh"
         width="100%"
@@ -100,7 +96,9 @@ function Rental() {
           mx: { xs: 2, lg: 3 },
           mt: -8,
           mb: 4,
-          backgroundColor: isDark ? ({ palette: { dark } }) => dark.main : ({ palette: { white }, functions: { rgba } }) => rgba(white.main, 0.8),
+          backgroundColor: isDark
+            ? ({ palette: { dark } }) => dark.main
+            : ({ palette: { white }, functions: { rgba } }) => rgba(white.main, 0.8),
           backdropFilter: "saturate(200%) blur(30px)",
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
           overflow: "hidden",

@@ -34,11 +34,7 @@ function CoverLayout({ coverHeight = "35vh", image, children }) {
   return (
     <MKBox height="calc(100vh - 1rem)">
       <MKBox width="100%" position="absolute" top="0.25rem">
-        <DefaultNavbar
-          routes={routes}
-          transparent
-          light
-        />
+        <DefaultNavbar routes={routes} transparent light />
       </MKBox>
       <MKBox
         width="calc(100% - 2rem)"

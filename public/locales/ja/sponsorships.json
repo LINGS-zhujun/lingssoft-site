@@ -1,38 +1,38 @@
 {
-    "hero": {
-        "title": "スポンサーになる",
-        "subtitle": "革新と成長を支援する",
-        "description": "皆様のご支援は、より良いオープンソースツールと持続可能なソフトウェアソリューションの構築に大きな力となります。未来を共に創りましょう。",
-        "cta": "支援する"
-    },
-    "channels": {
-        "title": "スポンサーシップチャンネル",
-        "description": "あなたに最適な支援方法をお選びください。",
-        "items": {
-            "individual": {
-                "title": "個人スポンサー",
-                "description": "GitHub SponsorsまたはPatreonを通じて支援します。ファンやユーザーの方に最適です。"
-            },
-            "corporate": {
-                "title": "企業スポンサー",
-                "description": "当社のツールを使用している企業向けプランです。ロゴの掲載や優先サポートを提供します。"
-            },
-            "partnership": {
-                "title": "パートナーシップ",
-                "description": "長期的なプロジェクトや戦略的な取り組みのために協力します。"
-            },
-            "one_time": {
-                "title": "単発寄付",
-                "description": "PayPalや暗号通貨を通じて一度だけの寄付が可能です。"
-            }
-        }
-    },
-    "donation": {
-        "title": "直接寄付",
-        "description": "運営費用を直接支援します。",
-        "bank": "銀行振込",
-        "crypto": "暗号通貨ウォレット",
-        "copy": "コピー",
-        "copied": "コピー完了！"
+  "hero": {
+    "title": "スポンサーになる",
+    "subtitle": "革新と成長を支援する",
+    "description": "皆様のご支援は、より良いオープンソースツールと持続可能なソフトウェアソリューションの構築に大きな力となります。未来を共に創りましょう。",
+    "cta": "支援する"
+  },
+  "channels": {
+    "title": "スポンサーシップチャンネル",
+    "description": "あなたに最適な支援方法をお選びください。",
+    "items": {
+      "individual": {
+        "title": "個人スポンサー",
+        "description": "GitHub SponsorsまたはPatreonを通じて支援します。ファンやユーザーの方に最適です。"
+      },
+      "corporate": {
+        "title": "企業スポンサー",
+        "description": "当社のツールを使用している企業向けプランです。ロゴの掲載や優先サポートを提供します。"
+      },
+      "partnership": {
+        "title": "パートナーシップ",
+        "description": "長期的なプロジェクトや戦略的な取り組みのために協力します。"
+      },
+      "one_time": {
+        "title": "単発寄付",
+        "description": "PayPalや暗号通貨を通じて一度だけの寄付が可能です。"
+      }
     }
+  },
+  "donation": {
+    "title": "直接寄付",
+    "description": "運営費用を直接支援します。",
+    "bank": "銀行振込",
+    "crypto": "暗号通貨ウォレット",
+    "copy": "コピー",
+    "copied": "コピー完了！"
+  }
 }

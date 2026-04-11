@@ -1,4 +1,3 @@
-
 // SwiperJS
 import SwiperCore, { Autoplay, Navigation } from "swiper";
 
@@ -31,27 +30,90 @@ function Header() {
       id: "monitoring",
       image: bg1,
       cards: [
-        { id: "process", variant: "contained", color: "success", icon: "monitor_heart", title: "프로세스 관리", description: "비인가 프로세스 차단" },
-        { id: "net", variant: "gradient", color: "success", icon: "hub", title: "네트워크 분석", description: "외부 통신 감시" },
-        { id: "threat", variant: "contained", color: "success", icon: "warning", title: "위협 탐지", description: "실시간 보안 위협 알림" },
+        {
+          id: "process",
+          variant: "contained",
+          color: "success",
+          icon: "monitor_heart",
+          title: "프로세스 관리",
+          description: "비인가 프로세스 차단",
+        },
+        {
+          id: "net",
+          variant: "gradient",
+          color: "success",
+          icon: "hub",
+          title: "네트워크 분석",
+          description: "외부 통신 감시",
+        },
+        {
+          id: "threat",
+          variant: "contained",
+          color: "success",
+          icon: "warning",
+          title: "위협 탐지",
+          description: "실시간 보안 위협 알림",
+        },
       ],
     },
     {
       id: "drm",
       image: bg2,
       cards: [
-        { id: "encrypt", variant: "gradient", color: "info", icon: "enhanced_encryption", title: "문서 암호화", description: "데이터 유출 방지" },
-        { id: "perm", variant: "contained", color: "info", icon: "person_off", title: "권한 제어", description: "세밀한 접근 권한" },
-        { id: "trace", variant: "contained", color: "info", icon: "history_edu", title: "이력 추적", description: "활용 내역 관리" },
+        {
+          id: "encrypt",
+          variant: "gradient",
+          color: "info",
+          icon: "enhanced_encryption",
+          title: "문서 암호화",
+          description: "데이터 유출 방지",
+        },
+        {
+          id: "perm",
+          variant: "contained",
+          color: "info",
+          icon: "person_off",
+          title: "권한 제어",
+          description: "세밀한 접근 권한",
+        },
+        {
+          id: "trace",
+          variant: "contained",
+          color: "info",
+          icon: "history_edu",
+          title: "이력 추적",
+          description: "활용 내역 관리",
+        },
       ],
     },
     {
       id: "logging",
       image: bg3,
       cards: [
-        { id: "log", variant: "contained", color: "primary", icon: "storage", title: "로그 통합", description: "보안 데이터 수집" },
-        { id: "iso", variant: "gradient", color: "primary", icon: "security", title: "내부 격리", description: "외부 유출 차단" },
-        { id: "analysis", variant: "contained", color: "primary", icon: "analytics", title: "상세 분석", description: "사후 조사 지원" },
+        {
+          id: "log",
+          variant: "contained",
+          color: "primary",
+          icon: "storage",
+          title: "로그 통합",
+          description: "보안 데이터 수집",
+        },
+        {
+          id: "iso",
+          variant: "gradient",
+          color: "primary",
+          icon: "security",
+          title: "내부 격리",
+          description: "외부 유출 차단",
+        },
+        {
+          id: "analysis",
+          variant: "contained",
+          color: "primary",
+          icon: "analytics",
+          title: "상세 분석",
+          description: "사후 조사 지원",
+        },
       ],
     },
   ];
@@ -59,8 +121,8 @@ function Header() {
   const slides = slidesConfig.map((slide) => {
     const content = slidesContent.find(({ id }) => id === slide.id) || {};
     const cards = slide.cards.map((card, index) => {
-        const cardContent = (content.cards || [])[index] || {};
-        return { ...card, ...cardContent };
+      const cardContent = (content.cards || [])[index] || {};
+      return { ...card, ...cardContent };
     });
     return {
       ...slide,

@@ -43,9 +43,9 @@ import { useThemeMode } from "context/ThemeModeContext";
 import { useTranslation } from "react-i18next";
 
 function Sponsorships() {
-    const { mode } = useThemeMode();
-    const { t } = useTranslation("sponsorships");
-    const isDark = mode === "dark";
+  const { mode } = useThemeMode();
+  const { t } = useTranslation("sponsorships");
+  const isDark = mode === "dark";
 
     return (
         <>

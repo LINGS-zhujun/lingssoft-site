@@ -50,11 +50,7 @@ function Coworking() {
 
   return (
     <>
-      <DefaultNavbar
-        routes={routes}
-        sticky
-        light={isDark}
-      />
+      <DefaultNavbar routes={routes} sticky light={isDark} />
       <MKBox
         minHeight="75vh"
         width="100%"

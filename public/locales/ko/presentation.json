@@ -32,7 +32,14 @@
   "influence": {
     "title": "산업 리더와 함께 구축한 운영 모델",
     "description": "OpenAI, Palo Alto Networks, Coursera, Springer Nature 등 신뢰받는 기술 리더들의 운영 모델을 융합해 단일 전략으로 제공합니다.",
-    "brands": ["OpenAI", "Palo Alto Networks", "CrowdStrike", "Coursera", "Springer Nature", "Elsevier"]
+    "brands": [
+      "OpenAI",
+      "Palo Alto Networks",
+      "CrowdStrike",
+      "Coursera",
+      "Springer Nature",
+      "Elsevier"
+    ]
   },
   "principles": {
     "title": "전달 원칙",

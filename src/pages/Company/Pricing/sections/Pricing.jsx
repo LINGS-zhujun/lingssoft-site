@@ -126,7 +126,9 @@ function Pricing() {
           <Grid container sx={{ mb: 6 }}>
             <Grid item xs={7} md={6} lg={4} sx={{ mx: "auto", textAlign: "center" }}>
               <AppBar position="static" sx={{ bgcolor: isDark ? "#1b1f30" : "white" }}>
-                <Tabs value={activeTab} onChange={handleTabType}
+                <Tabs
+                  value={activeTab}
+                  onChange={handleTabType}
                   sx={{
                     "& .MuiTabs-indicator": {
                       backgroundColor: "info.main", // Use info color for the indicator
@@ -135,8 +137,8 @@ function Pricing() {
                       color: isDark ? "rgba(255,255,255,0.7)" : "inherit",
                       "&.Mui-selected": {
                         color: isDark ? "white" : "inherit",
-                      }
-                    }
+                      },
+                    },
                   }}
                 >
                   <Tab

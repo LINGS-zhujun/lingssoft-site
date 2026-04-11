@@ -20,14 +20,7 @@ import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import routes from "routes/routes";
 
 function NavbarTransparent() {
-  return (
-    <DefaultNavbar
-      routes={routes}
-      transparent
-      relative
-      center
-    />
-  );
+  return <DefaultNavbar routes={routes} transparent relative center />;
 }
 
 export default NavbarTransparent;

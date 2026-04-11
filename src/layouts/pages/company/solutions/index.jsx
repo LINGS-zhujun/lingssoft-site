@@ -17,5 +17,5 @@ Coded by www.creative-tim.com
 import Solutions from "pages/Company/Solutions";
 
 export default function SolutionsPage() {
-    return <Solutions />;
+  return <Solutions />;
 }

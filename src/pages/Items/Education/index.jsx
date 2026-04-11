@@ -1,5 +1,5 @@
-import React from 'react';
-import { useTranslation } from 'react-i18next';
+import React from "react";
+import { useTranslation } from "react-i18next";
 
 // @mui material components
 import Container from "@mui/material/Container";
@@ -26,18 +26,13 @@ import Revenue from "pages/Items/Education/sections/Revenue";
 import Header from "pages/Items/Education/sections/Header";
 
 const EduTechPlatform = () => {
-  const { t } = useTranslation('solutions');
+  const { t } = useTranslation("solutions");
   const { mode } = useThemeMode();
   const isDark = mode === "dark";
 
   return (
     <>
-      <DefaultNavbar
-        routes={routes}
-        sticky
-        light={isDark}
-        transparent={false}
-      />
+      <DefaultNavbar routes={routes} sticky light={isDark} transparent={false} />
       <Header />
       <Card
         sx={{
@@ -58,6 +53,6 @@ const EduTechPlatform = () => {
       </MKBox>
     </>
   );
-}
+};
 
 export default EduTechPlatform;

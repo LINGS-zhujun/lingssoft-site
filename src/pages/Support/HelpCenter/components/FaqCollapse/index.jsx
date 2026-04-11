@@ -45,18 +45,30 @@ function FaqCollapse({ title, open, children, ...rest }) {
         borderBottom={`${borderWidth[1]} solid ${borderColor}`}
         sx={{ cursor: "pointer" }}
       >
-        <MKTypography variant="h5" color={isDark ? "white" : (open ? "dark" : "text")} sx={{ userSelect: "none" }}>
+        <MKTypography
+          variant="h5"
+          color={isDark ? "white" : open ? "dark" : "text"}
+          sx={{ userSelect: "none" }}
+        >
           {title}
         </MKTypography>
         <MKBox color={open || isDark ? "white" : "text"}>
-          <Icon sx={{ fontWeight: "bold", color: isDark ? "white" : (open ? "dark" : "text") }} fontSize="small">
+          <Icon
+            sx={{ fontWeight: "bold", color: isDark ? "white" : open ? "dark" : "text" }}
+            fontSize="small"
+          >
             {open ? "remove" : "add"}
           </Icon>
         </MKBox>
       </MKBox>
       <Collapse timeout={400} in={open}>
         <MKBox py={2} lineHeight={1}>
-          <MKTypography variant="button" color={isDark ? "white" : "text"} opacity={isDark ? 0.8 : 1} fontWeight="regular">
+          <MKTypography
+            variant="button"
+            color={isDark ? "white" : "text"}
+            opacity={isDark ? 0.8 : 1}
+            fontWeight="regular"
+          >
             {children}
           </MKTypography>
         </MKBox>

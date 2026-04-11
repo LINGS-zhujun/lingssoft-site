@@ -28,62 +28,67 @@ import { useTranslation } from "react-i18next";
 import { useThemeMode } from "context/ThemeModeContext";
 
 function Channels() {
-    const { t } = useTranslation("sponsorships");
-    const { mode } = useThemeMode();
-    const isDark = mode === "dark";
+  const { t } = useTranslation("sponsorships");
+  const { mode } = useThemeMode();
+  const isDark = mode === "dark";
 
-    return (
-        <MKBox component="section" py={12}>
-            <Container>
-                <Grid container spacing={3} alignItems="center">
-                    <Grid item xs={12} lg={6}>
-                        <MKTypography variant="h3" mb={1} color={isDark ? "white" : "dark"}>
-                            {t("channels.title")}
-                        </MKTypography>
-                        <MKTypography variant="body2" mb={3} color={isDark ? "white" : "text"} opacity={isDark ? 0.8 : 1}>
-                            {t("channels.description")}
-                        </MKTypography>
-                    </Grid>
-                    <Grid item xs={12} lg={6}>
-                        <Grid container spacing={3}>
-                            <Grid item xs={12} md={6}>
-                                <DefaultInfoCard
-                                    icon="person"
-                                    title={t("channels.items.individual.title")}
-                                    description={t("channels.items.individual.description")}
-                                    direction="left"
-                                />
-                            </Grid>
-                            <Grid item xs={12} md={6}>
-                                <DefaultInfoCard
-                                    icon="business"
-                                    title={t("channels.items.corporate.title")}
-                                    description={t("channels.items.corporate.description")}
-                                    direction="left"
-                                />
-                            </Grid>
-                            <Grid item xs={12} md={6}>
-                                <DefaultInfoCard
-                                    icon="handshake"
-                                    title={t("channels.items.partnership.title")}
-                                    description={t("channels.items.partnership.description")}
-                                    direction="left"
-                                />
-                            </Grid>
-                            <Grid item xs={12} md={6}>
-                                <DefaultInfoCard
-                                    icon="favorite"
-                                    title={t("channels.items.one_time.title")}
-                                    description={t("channels.items.one_time.description")}
-                                    direction="left"
-                                />
-                            </Grid>
-                        </Grid>
-                    </Grid>
-                </Grid>
-            </Container>
-        </MKBox>
-    );
+  return (
+    <MKBox component="section" py={12}>
+      <Container>
+        <Grid container spacing={3} alignItems="center">
+          <Grid item xs={12} lg={6}>
+            <MKTypography variant="h3" mb={1} color={isDark ? "white" : "dark"}>
+              {t("channels.title")}
+            </MKTypography>
+            <MKTypography
+              variant="body2"
+              mb={3}
+              color={isDark ? "white" : "text"}
+              opacity={isDark ? 0.8 : 1}
+            >
+              {t("channels.description")}
+            </MKTypography>
+          </Grid>
+          <Grid item xs={12} lg={6}>
+            <Grid container spacing={3}>
+              <Grid item xs={12} md={6}>
+                <DefaultInfoCard
+                  icon="person"
+                  title={t("channels.items.individual.title")}
+                  description={t("channels.items.individual.description")}
+                  direction="left"
+                />
+              </Grid>
+              <Grid item xs={12} md={6}>
+                <DefaultInfoCard
+                  icon="business"
+                  title={t("channels.items.corporate.title")}
+                  description={t("channels.items.corporate.description")}
+                  direction="left"
+                />
+              </Grid>
+              <Grid item xs={12} md={6}>
+                <DefaultInfoCard
+                  icon="handshake"
+                  title={t("channels.items.partnership.title")}
+                  description={t("channels.items.partnership.description")}
+                  direction="left"
+                />
+              </Grid>
+              <Grid item xs={12} md={6}>
+                <DefaultInfoCard
+                  icon="favorite"
+                  title={t("channels.items.one_time.title")}
+                  description={t("channels.items.one_time.description")}
+                  direction="left"
+                />
+              </Grid>
+            </Grid>
+          </Grid>
+        </Grid>
+      </Container>
+    </MKBox>
+  );
 }
 
 export default Channels;

@@ -270,7 +270,12 @@ function Presentation() {
           <Container>
             <Grid container spacing={4} alignItems="center">
               <Grid item xs={12} md={6}>
-                <MKTypography variant="h4" fontWeight="bold" mb={2} color={isDark ? "white" : "dark"}>
+                <MKTypography
+                  variant="h4"
+                  fontWeight="bold"
+                  mb={2}
+                  color={isDark ? "white" : "dark"}
+                >
                   {t("presentation:alliance.title")}
                 </MKTypography>
                 <MKTypography variant="body1" color={isDark ? "white" : "text"} mb={3}>

@@ -45,7 +45,11 @@ function ContactUs() {
           <MKTypography variant="h3" mb={1} color={isDark ? "white" : "dark"}>
             {t("sectionTitle")}
           </MKTypography>
-          <MKTypography variant="body2" color={isDark ? "white" : "text"} opacity={isDark ? 0.8 : 1}>
+          <MKTypography
+            variant="body2"
+            color={isDark ? "white" : "text"}
+            opacity={isDark ? 0.8 : 1}
+          >
             {t("subtitle")}
           </MKTypography>
         </Grid>
@@ -57,7 +61,10 @@ function ContactUs() {
                   <MKInput
                     variant="standard"
                     label={t("form.fullName")}
-                    InputLabelProps={{ shrink: true, style: { color: isDark ? "white" : "inherit" } }}
+                    InputLabelProps={{
+                      shrink: true,
+                      style: { color: isDark ? "white" : "inherit" },
+                    }}
                     fullWidth
                     sx={{
                       "& .MuiInputBase-root": {
@@ -75,7 +82,10 @@ function ContactUs() {
                     type="email"
                     variant="standard"
                     label={t("form.email")}
-                    InputLabelProps={{ shrink: true, style: { color: isDark ? "white" : "inherit" } }}
+                    InputLabelProps={{
+                      shrink: true,
+                      style: { color: isDark ? "white" : "inherit" },
+                    }}
                     fullWidth
                     sx={{
                       "& .MuiInputBase-root": {
@@ -93,7 +103,10 @@ function ContactUs() {
                     variant="standard"
                     label={t("form.message")}
                     placeholder={t("form.placeholder")}
-                    InputLabelProps={{ shrink: true, style: { color: isDark ? "white" : "inherit" } }}
+                    InputLabelProps={{
+                      shrink: true,
+                      style: { color: isDark ? "white" : "inherit" },
+                    }}
                     multiline
                     fullWidth
                     rows={6}

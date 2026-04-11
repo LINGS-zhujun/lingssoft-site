@@ -64,12 +64,7 @@ function SingleArticle() {
   return (
     <>
       <MKBox bgColor={isDark ? "dark" : "white"} py={0.25}>
-        <DefaultNavbar
-          routes={routes}
-          transparent
-          relative
-          light={isDark}
-        />
+        <DefaultNavbar routes={routes} transparent relative light={isDark} />
       </MKBox>
       <MKBox
         ref={headerRef}

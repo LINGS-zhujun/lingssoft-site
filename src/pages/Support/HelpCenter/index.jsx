@@ -50,12 +50,7 @@ function HelpCenter() {
 
   return (
     <>
-      <DefaultNavbar
-        routes={routes}
-        sticky
-        light={isDark}
-        transparent={false}
-      />
+      <DefaultNavbar routes={routes} sticky light={isDark} transparent={false} />
       <MKBox
         minHeight="50vh"
         width="100%"

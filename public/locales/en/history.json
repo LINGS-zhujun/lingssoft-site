@@ -37,28 +37,19 @@
       "year": "2023",
       "title": "Lifelong learning canopy",
       "description": "Combined AR classrooms and AI mentoring into a single journey, helping 120K learners reskill without leaving their workplace.",
-      "milestones": [
-        "Learning pulse API introduced",
-        "Bootstrap fund for teachers created"
-      ]
+      "milestones": ["Learning pulse API introduced", "Bootstrap fund for teachers created"]
     },
     {
       "year": "2022",
       "title": "Ethical AI charter",
       "description": "Adopted transparent review rituals led jointly by engineers, educators, and legal experts to keep every release accountable.",
-      "milestones": [
-        "Independent safety council formed",
-        "First multilingual compliance kit"
-      ]
+      "milestones": ["Independent safety council formed", "First multilingual compliance kit"]
     },
     {
       "year": "2020",
       "title": "Roots in custom engineering",
       "description": "Founded LINGSSOFT with the belief that purposeful software, like a tree, must adapt to its ecosystem and give back more than it takes.",
-      "milestones": [
-        "First security automation delivered",
-        "Partnerships with three universities"
-      ]
+      "milestones": ["First security automation delivered", "Partnerships with three universities"]
     }
   ],
   "leaves": {

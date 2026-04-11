@@ -30,60 +30,78 @@ import { useTranslation } from "react-i18next";
 import { useThemeMode } from "context/ThemeModeContext";
 
 function Donation() {
-    const { t } = useTranslation("sponsorships");
-    const { mode } = useThemeMode();
-    const isDark = mode === "dark";
-    const [copied, setCopied] = useState(false);
+  const { t } = useTranslation("sponsorships");
+  const { mode } = useThemeMode();
+  const isDark = mode === "dark";
+  const [copied, setCopied] = useState(false);
 
-    const walletAddress = "0x1234...abcd"; // Placeholder
+  const walletAddress = "0x1234...abcd"; // Placeholder
 
-    const handleCopy = () => {
-        navigator.clipboard.writeText(walletAddress);
-        setCopied(true);
-        setTimeout(() => setCopied(false), 2000);
-    };
+  const handleCopy = () => {
+    navigator.clipboard.writeText(walletAddress);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
 
-    return (
-        <MKBox component="section" py={12} sx={{ borderTop: ({ borders: { borderWidth, borderColor } }) => `${borderWidth[1]} solid ${borderColor}` }}>
-            <Container>
-                <Grid container justifyContent="center" mb={6}>
-                    <Grid item xs={12} md={8} textAlign="center">
-                        <MKTypography variant="h3" mb={1} color={isDark ? "white" : "dark"}>
-                            {t("donation.title")}
-                        </MKTypography>
-                        <MKTypography variant="body2" color={isDark ? "white" : "text"} opacity={isDark ? 0.8 : 1}>
-                            {t("donation.description")}
-                        </MKTypography>
-                    </Grid>
-                </Grid>
-                <Grid container justifyContent="center">
-                    <MKBox
-                        bgColor={isDark ? "background.card" : "white"}
-                        borderRadius="xl"
-                        shadow="sm"
-                        p={4}
-                        sx={{
-                            border: ({ borders: { borderWidth, borderColor } }) => `${borderWidth[1]} solid ${borderColor}`,
-                            display: "flex",
-                            alignItems: "center",
-                            gap: 2
-                        }}
-                    >
-                        <Icon fontSize="large" color="info">currency_bitcoin</Icon>
-                        <MKBox>
-                            <MKTypography variant="h6" color={isDark ? "white" : "dark"}>{t("donation.crypto")}</MKTypography>
-                            <MKTypography variant="body2" color={isDark ? "white" : "text"} opacity={0.8}>{walletAddress}</MKTypography>
-                        </MKBox>
-                        <Tooltip title={copied ? t("donation.copied") : t("donation.copy")} placement="top">
-                            <MKButton variant="outlined" color="info" size="small" onClick={handleCopy}>
-                                {copied ? <Icon>check</Icon> : <Icon>content_copy</Icon>}
-                            </MKButton>
-                        </Tooltip>
-                    </MKBox>
-                </Grid>
-            </Container>
-        </MKBox>
-    );
+  return (
+    <MKBox
+      component="section"
+      py={12}
+      sx={{
+        borderTop: ({ borders: { borderWidth, borderColor } }) =>
+          `${borderWidth[1]} solid ${borderColor}`,
+      }}
+    >
+      <Container>
+        <Grid container justifyContent="center" mb={6}>
+          <Grid item xs={12} md={8} textAlign="center">
+            <MKTypography variant="h3" mb={1} color={isDark ? "white" : "dark"}>
+              {t("donation.title")}
+            </MKTypography>
+            <MKTypography
+              variant="body2"
+              color={isDark ? "white" : "text"}
+              opacity={isDark ? 0.8 : 1}
+            >
+              {t("donation.description")}
+            </MKTypography>
+          </Grid>
+        </Grid>
+        <Grid container justifyContent="center">
+          <MKBox
+            bgColor={isDark ? "background.card" : "white"}
+            borderRadius="xl"
+            shadow="sm"
+            p={4}
+            sx={{
+              border: ({ borders: { borderWidth, borderColor } }) =>
+                `${borderWidth[1]} solid ${borderColor}`,
+              display: "flex",
+              alignItems: "center",
+              gap: 2,
+            }}
+          >
+            <Icon fontSize="large" color="info">
+              currency_bitcoin
+            </Icon>
+            <MKBox>
+              <MKTypography variant="h6" color={isDark ? "white" : "dark"}>
+                {t("donation.crypto")}
+              </MKTypography>
+              <MKTypography variant="body2" color={isDark ? "white" : "text"} opacity={0.8}>
+                {walletAddress}
+              </MKTypography>
+            </MKBox>
+            <Tooltip title={copied ? t("donation.copied") : t("donation.copy")} placement="top">
+              <MKButton variant="outlined" color="info" size="small" onClick={handleCopy}>
+                {copied ? <Icon>check</Icon> : <Icon>content_copy</Icon>}
+              </MKButton>
+            </Tooltip>
+          </MKBox>
+        </Grid>
+      </Container>
+    </MKBox>
+  );
 }
 
 export default Donation;

@@ -1,249 +1,331 @@
 {
-    "hero": {
-        "title": "Ensuring Data Sovereignty",
-        "subtitle": "Next-Gen Local Solutions",
-        "description": "LINGSSOFT creates a world where your data remains yours, without cloud dependency. Experience local-centric innovation combining powerful security and AI."
-    },
-    "ai": {
-        "title": "ECO AI DevOps Appliance",
-        "description": "An on-premise specialized AI-driven DevOps solution promising sustainable energy efficiency and data security.",
-        "header": {
-            "slides": [
-                {
-                    "id": "energy",
-                    "label": "ECO Resource Management",
-                    "title": "A New Standard for Energy Efficiency",
-                    "description": "Minimize power consumption and realize digital carbon neutrality with cutting-edge technology.",
-                                            "cards": [
-                                                { "title": "Idle mode control algorithm", "description": "Detects real-time usage to eliminate unnecessary power consumption and intelligently reallocates computing resources." },
-                                                { "title": "Resource scheduling", "description": "Allocates hardware resources optimized for workloads to reduce overhead and maximize operational cost savings." },
-                                                { "title": "Process scheduling", "description": "Effectively distributes system load to enhance processing performance and support low-carbon, sustainable business management." }
-                                            ]                },
-                {
-                    "id": "security",
-                    "label": "On-premise Innovation",
-                    "title": "Perfect Security Environment",
-                    "description": "Thoroughly manage corporate data internally to guarantee robust information sovereignty.",
-                    "cards": [
-                        { "title": "Enhanced Security", "description": "Establishes an air-gap environment isolated from external networks to fundamentally block all abnormal access and intrusion threats." },
-                        { "title": "Protection", "description": "Provides powerful on-premise encryption and distribution control systems to prevent the leakage of core technologies and intellectual assets." },
-                        { "title": "Control", "description": "Ensures transparent management and complete control over data usage by tracking and visualizing all internal data flows in real-time." }
-                    ]
-                },
-                {
-                    "id": "devops",
-                    "label": "AI-based DevOps",
-                    "title": "Maximizing Development Productivity",
-                    "description": "Helping developers focus on creativity by automating complex operations with AI.",
-                    "cards": [
-                        { "title": "Automation", "description": "Intelligent AI automates repetitive infrastructure setup and build processes, dramatically reducing pipeline construction time." },
-                        { "title": "Speed", "description": "Simplifies complex procedures through optimized deployment strategies, accelerating the product's time-to-market." },
-                        { "title": "Quality", "description": "Prevents errors proactively through AI-driven continuous monitoring and automated testing, ensuring service continuity and stability." }
-                    ]
-                }
-            ]
-        },
-        "features": [
-            "Energy Efficiency - ECO Resource Management",
-            "Robust Data Sovereignty - On-premise",
-            "DevOps Innovation - AI DevOps"
-        ],
-        "themes": {
-            "energy": {
-                "title": "Energy Efficiency - ECO Resource Management",
-                "description": "Utilizes cutting-edge ECO Resource Management technology to efficiently allocate computing resources and dramatically reduce power consumption. Optimizes infra costs and provides a sustainable digital environment."
+  "hero": {
+    "title": "Ensuring Data Sovereignty",
+    "subtitle": "Next-Gen Local Solutions",
+    "description": "LINGSSOFT creates a world where your data remains yours, without cloud dependency. Experience local-centric innovation combining powerful security and AI."
+  },
+  "ai": {
+    "title": "ECO AI DevOps Appliance",
+    "description": "An on-premise specialized AI-driven DevOps solution promising sustainable energy efficiency and data security.",
+    "header": {
+      "slides": [
+        {
+          "id": "energy",
+          "label": "ECO Resource Management",
+          "title": "A New Standard for Energy Efficiency",
+          "description": "Minimize power consumption and realize digital carbon neutrality with cutting-edge technology.",
+          "cards": [
+            {
+              "title": "Idle mode control algorithm",
+              "description": "Detects real-time usage to eliminate unnecessary power consumption and intelligently reallocates computing resources."
             },
-            "sovereignty": {
-                "title": "Data Sovereignty - On-premise Environment",
-                "description": "Completely control the flow of data within your organization. By fundamentally blocking any possibility of external leaks, we securely protect your most valuable asset—your data."
+            {
+              "title": "Resource scheduling",
+              "description": "Allocates hardware resources optimized for workloads to reduce overhead and maximize operational cost savings."
             },
-            "usability": {
-                "title": "DevOps Innovation - AI DevOps",
-                "description": "Innovates complex development pipelines and infrastructure configurations through AI-driven automation. We build an environment where developers can focus solely on creating core value."
+            {
+              "title": "Process scheduling",
+              "description": "Effectively distributes system load to enhance processing performance and support low-carbon, sustainable business management."
             }
+          ]
         },
-        "revenue": {
-            "title": "Our Partnership Approach",
-            "items": [
-                {
-                    "title": "Integrated Solution Supply",
-                    "description": "From field-ready hardware-integrated appliances to optimized software packages, we offer integrated supply solutions tailored to your enterprise size."
-                },
-                {
-                    "title": "Delivering Sustainable Value",
-                    "description": "Lower the initial introduction burden through flexible subscription licenses and experience the latest AI technology that is continuously updated throughout its lifecycle."
-                },
-                {
-                    "title": "Specialized Tech Partnership",
-                    "description": "Going beyond simple support, we accompany you on your successful digital transformation journey through custom implementations optimized for your environment and dedicated engineer consulting."
-                },
-                {
-                    "title": "Trust-Based Market Value",
-                    "description": "We offer proven value in public and financial markets where security and trust are essential, positioning ourselves as the standard for next-generation local AI technology."
-                }
-            ]
+        {
+          "id": "security",
+          "label": "On-premise Innovation",
+          "title": "Perfect Security Environment",
+          "description": "Thoroughly manage corporate data internally to guarantee robust information sovereignty.",
+          "cards": [
+            {
+              "title": "Enhanced Security",
+              "description": "Establishes an air-gap environment isolated from external networks to fundamentally block all abnormal access and intrusion threats."
+            },
+            {
+              "title": "Protection",
+              "description": "Provides powerful on-premise encryption and distribution control systems to prevent the leakage of core technologies and intellectual assets."
+            },
+            {
+              "title": "Control",
+              "description": "Ensures transparent management and complete control over data usage by tracking and visualizing all internal data flows in real-time."
+            }
+          ]
+        },
+        {
+          "id": "devops",
+          "label": "AI-based DevOps",
+          "title": "Maximizing Development Productivity",
+          "description": "Helping developers focus on creativity by automating complex operations with AI.",
+          "cards": [
+            {
+              "title": "Automation",
+              "description": "Intelligent AI automates repetitive infrastructure setup and build processes, dramatically reducing pipeline construction time."
+            },
+            {
+              "title": "Speed",
+              "description": "Simplifies complex procedures through optimized deployment strategies, accelerating the product's time-to-market."
+            },
+            {
+              "title": "Quality",
+              "description": "Prevents errors proactively through AI-driven continuous monitoring and automated testing, ensuring service continuity and stability."
+            }
+          ]
         }
+      ]
     },
-    "security": {
-        "title": "Enterprise Security Suite",
-        "description": "From process monitoring to document security. Protect all corporate digital assets seamlessly. All logs and monitoring data remain safely isolated within your organization.",
-        "features": [
-            "Real-time Resource Protection",
-            "Data Leak Prevention",
-            "Integrated Log Analysis"
-        ],
-        "header": {
-            "slides": [
-                {
-                    "id": "monitoring",
-                    "label": "Real-time Protection",
-                    "title": "Perfect Process Monitoring",
-                    "description": "Monitor all computing resources and network flows in real-time to detect abnormal behavior immediately.",
-                    "cards": [
-                        { "title": "Process Management", "description": "Empowers system-core level process tracking to fundamentally block unauthorized executions and proactively defend against potential malicious activities." },
-                        { "title": "Network Analysis", "description": "Analyzes all packet flows between internal infra and external networks to detect data leakage attempts and intelligently monitor unauthorized communications." },
-                        { "title": "Threat Detection", "description": "Leverages an intelligent engine to capture signs of intrusion or exploits in real-time, providing immediate alerts and response guides to minimize risk." }
-                    ]
-                },
-                {
-                    "id": "drm",
-                    "label": "Document Security Innovation",
-                    "title": "Enterprise-grade DRM",
-                    "description": "Provide strong encryption and access control throughout the lifecycle of critical documents.",
-                    "cards": [
-                        { "title": "Document Encryption", "description": "Applies automated, high-strength encryption from the moment of creation, ensuring data remains protected even in the event of unauthorized external disclosure." },
-                        { "title": "Access Control", "description": "Strictly governs detailed document actions—read, edit, print—based on user roles and seniority to prevent misuse of sensitive internal information." },
-                        { "title": "Traceability", "description": "Records and visualizes the complete lifecycle of critical documents, including creation, movement, and deletion, to maximize transparency in data management." }
-                    ]
-                },
-                {
-                    "id": "logging",
-                    "label": "Data Sovereignty",
-                    "title": "Integrated Log Analysis",
-                    "description": "Centralize all security logs internally to maximize compliance and post-analysis efficiency.",
-                    "cards": [
-                        { "title": "Log Integration", "description": "Aggregates vast security log data scattered across servers, networks, and endpoints into a single local system, providing a comprehensive security dashboard." },
-                        { "title": "Internal Isolation", "description": "Securely isolates and stores all sensitive security data within the enterprise’s independent, closed repository—never on the cloud—to fully safeguard information sovereignty." },
-                        { "title": "Analysis", "description": "Provides advanced search and visualization tools to accurately identify root causes during incidents and generate rich analytical reports for compliance." }
-                    ]
-                }
-            ]
-        },
-        "themes": {
-           "monitoring": {
-               "title": "Intelligent Real-time Monitoring",
-               "description": "Proactively detect unknown threats through AI-based pattern analysis. Trace all process activities to eliminate security blind spots."
-           },
-           "protection": {
-               "title": "Integrity Document Security (DRM)",
-               "description": "Control all document-related actions such as editing, printing, and capturing. Provide a strong shield for data ownership."
-           },
-           "compliance": {
-               "title": "Compliance & Governance",
-               "description": "Build an integrated management system that complies with privacy laws and security regulations. Protect data value completely."
-           }
-        },
-        "revenue": {
-           "title": "Value Beyond Security",
-           "items": [
-                {
-                    "title": "Thorough Internal Control",
-                    "description": "Physically and logically block all unauthorized access to protect core technical competitiveness."
-                },
-                {
-                    "title": "Custom Security Design",
-                    "description": "Build custom security systems that don't hinder productivity by analyzing unique business environments."
-                },
-                {
-                    "title": "Rapid Incident Response",
-                    "description": "Visualize all data for immediate analysis and support systematic post-incident measures."
-                },
-                {
-                    "title": "Continuous Security Upgrades",
-                    "description": "Maintain the highest security levels through regular updates and expert consulting against evolving threats."
-                }
-           ]
-        }
+    "features": [
+      "Energy Efficiency - ECO Resource Management",
+      "Robust Data Sovereignty - On-premise",
+      "DevOps Innovation - AI DevOps"
+    ],
+    "themes": {
+      "energy": {
+        "title": "Energy Efficiency - ECO Resource Management",
+        "description": "Utilizes cutting-edge ECO Resource Management technology to efficiently allocate computing resources and dramatically reduce power consumption. Optimizes infra costs and provides a sustainable digital environment."
+      },
+      "sovereignty": {
+        "title": "Data Sovereignty - On-premise Environment",
+        "description": "Completely control the flow of data within your organization. By fundamentally blocking any possibility of external leaks, we securely protect your most valuable asset—your data."
+      },
+      "usability": {
+        "title": "DevOps Innovation - AI DevOps",
+        "description": "Innovates complex development pipelines and infrastructure configurations through AI-driven automation. We build an environment where developers can focus solely on creating core value."
+      }
     },
-    "education": {
-        "title": "EduTech Platform",
-        "description": "A standalone online education system for freelance tutors. Own and manage student data and teaching materials directly without platform dependency.",
-        "features": [
-            "White-label Online Classroom",
-            "Local Learning Data Management",
-            "Interactive Teaching Tools"
-        ],
-        "header": {
-            "slides": [
-                {
-                    "id": "branding",
-                    "label": "Instructor-Branded Education",
-                    "title": "White-label Online Education Platform",
-                    "description": "Replace platform logos with your own brand identity and deliver a consistent, professional brand experience for your learners.",
-                    "cards": [
-                        { "title": "Brand Customization", "description": "Operate independent educational sites by setting your own logo, theme colors, and domain without being dependent on large platforms." },
-                        { "title": "Responsive Interface", "description": "Maximize student accessibility through a user experience optimized for all devices, including mobile and tablets." },
-                        { "title": "Instructor Dashboard", "description": "Easily handle complex operational tasks through an intuitive interface, from course setup to student management." }
-                    ]
-                },
-                {
-                    "id": "data",
-                    "label": "Ensure Data Sovereignty",
-                    "title": "Local Learning Data Management",
-                    "description": "Don't leave valuable teaching materials and student data to external clouds. Own and manage your data in a sovereignty-centric environment.",
-                    "cards": [
-                        { "title": "Strong Data Security", "description": "Fundamentally prevent data leakage to large platforms by isolating personal info and learning history locally." },
-                        { "title": "Autonomous Data Use", "description": "Freely extract and analyze accumulated learning data to provide customized learning prescriptions specialized for your students." },
-                        { "title": "Platform Independence", "description": "Permanently own and operate all built systems and data without worrying about platform policy changes or fee increases." }
-                    ]
-                },
-                {
-                    "id": "interaction",
-                    "label": "Maximize Learning Effects",
-                    "title": "Real-time Interactive Teaching Tools",
-                    "description": "Enhance learning efficiency by providing high-performance video class tools and two-way communication that feels just like in-person.",
-                    "cards": [
-                        { "title": "HD Video Lectures", "description": "Conduct high-quality two-way classes with dozens of students simultaneously using a low-latency high-performance media engine." },
-                        { "title": "Digital Writing System", "description": "Utilize real-time shared whiteboards and various writing tools to visually communicate and explain abstract concepts clearly." },
-                        { "title": "Real-time Participation", "description": "Increase student immersion and encourage active participation through various interactive features like quizzes and polls." }
-                    ]
-                }
-            ]
+    "revenue": {
+      "title": "Our Partnership Approach",
+      "items": [
+        {
+          "title": "Integrated Solution Supply",
+          "description": "From field-ready hardware-integrated appliances to optimized software packages, we offer integrated supply solutions tailored to your enterprise size."
         },
-        "themes": {
-           "branding": {
-               "title": "Independent Brand Strengthening",
-               "description": "Increase student loyalty and create differentiated educational value through a white-label platform reflecting the instructor's unique philosophy."
-           },
-           "data": {
-               "title": "Restoring Data Sovereignty",
-               "description": "Maintain the value of data by managing all learning records and content directly on local systems, reducing platform dependency."
-           },
-           "interaction": {
-               "title": "Innovating Interactive Experience",
-               "description": "Break the constraints of time and space using cutting-edge interactive technology to realize one-on-one customized learning environments."
-           }
+        {
+          "title": "Delivering Sustainable Value",
+          "description": "Lower the initial introduction burden through flexible subscription licenses and experience the latest AI technology that is continuously updated throughout its lifecycle."
         },
-        "revenue": {
-           "title": "Sustainable Growth of Education",
-           "items": [
-                {
-                    "title": "Autonomous Business Model",
-                    "description": "Improve profitability through a commission-free independent system and freely explore various educational business ideas."
-                },
-                {
-                    "title": "Scalable System Architecture",
-                    "description": "Flexibly scale the system as the student base grows and immediately reflect the latest EdTech technologies."
-                },
-                {
-                    "title": "Specialized Operating Partnership",
-                    "description": "Beyond just providing a platform, we offer technical consulting and close support from dedicated engineers for a successful online environment."
-                },
-                {
-                    "title": "Reliable Education Partner",
-                    "description": "Based on stability and security proven in numerous fields, we create an environment where you can focus solely on the essence of education."
-                }
-           ]
+        {
+          "title": "Specialized Tech Partnership",
+          "description": "Going beyond simple support, we accompany you on your successful digital transformation journey through custom implementations optimized for your environment and dedicated engineer consulting."
+        },
+        {
+          "title": "Trust-Based Market Value",
+          "description": "We offer proven value in public and financial markets where security and trust are essential, positioning ourselves as the standard for next-generation local AI technology."
         }
+      ]
     }
+  },
+  "security": {
+    "title": "Enterprise Security Suite",
+    "description": "From process monitoring to document security. Protect all corporate digital assets seamlessly. All logs and monitoring data remain safely isolated within your organization.",
+    "features": [
+      "Real-time Resource Protection",
+      "Data Leak Prevention",
+      "Integrated Log Analysis"
+    ],
+    "header": {
+      "slides": [
+        {
+          "id": "monitoring",
+          "label": "Real-time Protection",
+          "title": "Perfect Process Monitoring",
+          "description": "Monitor all computing resources and network flows in real-time to detect abnormal behavior immediately.",
+          "cards": [
+            {
+              "title": "Process Management",
+              "description": "Empowers system-core level process tracking to fundamentally block unauthorized executions and proactively defend against potential malicious activities."
+            },
+            {
+              "title": "Network Analysis",
+              "description": "Analyzes all packet flows between internal infra and external networks to detect data leakage attempts and intelligently monitor unauthorized communications."
+            },
+            {
+              "title": "Threat Detection",
+              "description": "Leverages an intelligent engine to capture signs of intrusion or exploits in real-time, providing immediate alerts and response guides to minimize risk."
+            }
+          ]
+        },
+        {
+          "id": "drm",
+          "label": "Document Security Innovation",
+          "title": "Enterprise-grade DRM",
+          "description": "Provide strong encryption and access control throughout the lifecycle of critical documents.",
+          "cards": [
+            {
+              "title": "Document Encryption",
+              "description": "Applies automated, high-strength encryption from the moment of creation, ensuring data remains protected even in the event of unauthorized external disclosure."
+            },
+            {
+              "title": "Access Control",
+              "description": "Strictly governs detailed document actions—read, edit, print—based on user roles and seniority to prevent misuse of sensitive internal information."
+            },
+            {
+              "title": "Traceability",
+              "description": "Records and visualizes the complete lifecycle of critical documents, including creation, movement, and deletion, to maximize transparency in data management."
+            }
+          ]
+        },
+        {
+          "id": "logging",
+          "label": "Data Sovereignty",
+          "title": "Integrated Log Analysis",
+          "description": "Centralize all security logs internally to maximize compliance and post-analysis efficiency.",
+          "cards": [
+            {
+              "title": "Log Integration",
+              "description": "Aggregates vast security log data scattered across servers, networks, and endpoints into a single local system, providing a comprehensive security dashboard."
+            },
+            {
+              "title": "Internal Isolation",
+              "description": "Securely isolates and stores all sensitive security data within the enterprise’s independent, closed repository—never on the cloud—to fully safeguard information sovereignty."
+            },
+            {
+              "title": "Analysis",
+              "description": "Provides advanced search and visualization tools to accurately identify root causes during incidents and generate rich analytical reports for compliance."
+            }
+          ]
+        }
+      ]
+    },
+    "themes": {
+      "monitoring": {
+        "title": "Intelligent Real-time Monitoring",
+        "description": "Proactively detect unknown threats through AI-based pattern analysis. Trace all process activities to eliminate security blind spots."
+      },
+      "protection": {
+        "title": "Integrity Document Security (DRM)",
+        "description": "Control all document-related actions such as editing, printing, and capturing. Provide a strong shield for data ownership."
+      },
+      "compliance": {
+        "title": "Compliance & Governance",
+        "description": "Build an integrated management system that complies with privacy laws and security regulations. Protect data value completely."
+      }
+    },
+    "revenue": {
+      "title": "Value Beyond Security",
+      "items": [
+        {
+          "title": "Thorough Internal Control",
+          "description": "Physically and logically block all unauthorized access to protect core technical competitiveness."
+        },
+        {
+          "title": "Custom Security Design",
+          "description": "Build custom security systems that don't hinder productivity by analyzing unique business environments."
+        },
+        {
+          "title": "Rapid Incident Response",
+          "description": "Visualize all data for immediate analysis and support systematic post-incident measures."
+        },
+        {
+          "title": "Continuous Security Upgrades",
+          "description": "Maintain the highest security levels through regular updates and expert consulting against evolving threats."
+        }
+      ]
+    }
+  },
+  "education": {
+    "title": "EduTech Platform",
+    "description": "A standalone online education system for freelance tutors. Own and manage student data and teaching materials directly without platform dependency.",
+    "features": [
+      "White-label Online Classroom",
+      "Local Learning Data Management",
+      "Interactive Teaching Tools"
+    ],
+    "header": {
+      "slides": [
+        {
+          "id": "branding",
+          "label": "Instructor-Branded Education",
+          "title": "White-label Online Education Platform",
+          "description": "Replace platform logos with your own brand identity and deliver a consistent, professional brand experience for your learners.",
+          "cards": [
+            {
+              "title": "Brand Customization",
+              "description": "Operate independent educational sites by setting your own logo, theme colors, and domain without being dependent on large platforms."
+            },
+            {
+              "title": "Responsive Interface",
+              "description": "Maximize student accessibility through a user experience optimized for all devices, including mobile and tablets."
+            },
+            {
+              "title": "Instructor Dashboard",
+              "description": "Easily handle complex operational tasks through an intuitive interface, from course setup to student management."
+            }
+          ]
+        },
+        {
+          "id": "data",
+          "label": "Ensure Data Sovereignty",
+          "title": "Local Learning Data Management",
+          "description": "Don't leave valuable teaching materials and student data to external clouds. Own and manage your data in a sovereignty-centric environment.",
+          "cards": [
+            {
+              "title": "Strong Data Security",
+              "description": "Fundamentally prevent data leakage to large platforms by isolating personal info and learning history locally."
+            },
+            {
+              "title": "Autonomous Data Use",
+              "description": "Freely extract and analyze accumulated learning data to provide customized learning prescriptions specialized for your students."
+            },
+            {
+              "title": "Platform Independence",
+              "description": "Permanently own and operate all built systems and data without worrying about platform policy changes or fee increases."
+            }
+          ]
+        },
+        {
+          "id": "interaction",
+          "label": "Maximize Learning Effects",
+          "title": "Real-time Interactive Teaching Tools",
+          "description": "Enhance learning efficiency by providing high-performance video class tools and two-way communication that feels just like in-person.",
+          "cards": [
+            {
+              "title": "HD Video Lectures",
+              "description": "Conduct high-quality two-way classes with dozens of students simultaneously using a low-latency high-performance media engine."
+            },
+            {
+              "title": "Digital Writing System",
+              "description": "Utilize real-time shared whiteboards and various writing tools to visually communicate and explain abstract concepts clearly."
+            },
+            {
+              "title": "Real-time Participation",
+              "description": "Increase student immersion and encourage active participation through various interactive features like quizzes and polls."
+            }
+          ]
+        }
+      ]
+    },
+    "themes": {
+      "branding": {
+        "title": "Independent Brand Strengthening",
+        "description": "Increase student loyalty and create differentiated educational value through a white-label platform reflecting the instructor's unique philosophy."
+      },
+      "data": {
+        "title": "Restoring Data Sovereignty",
+        "description": "Maintain the value of data by managing all learning records and content directly on local systems, reducing platform dependency."
+      },
+      "interaction": {
+        "title": "Innovating Interactive Experience",
+        "description": "Break the constraints of time and space using cutting-edge interactive technology to realize one-on-one customized learning environments."
+      }
+    },
+    "revenue": {
+      "title": "Sustainable Growth of Education",
+      "items": [
+        {
+          "title": "Autonomous Business Model",
+          "description": "Improve profitability through a commission-free independent system and freely explore various educational business ideas."
+        },
+        {
+          "title": "Scalable System Architecture",
+          "description": "Flexibly scale the system as the student base grows and immediately reflect the latest EdTech technologies."
+        },
+        {
+          "title": "Specialized Operating Partnership",
+          "description": "Beyond just providing a platform, we offer technical consulting and close support from dedicated engineers for a successful online environment."
+        },
+        {
+          "title": "Reliable Education Partner",
+          "description": "Based on stability and security proven in numerous fields, we create an environment where you can focus solely on the essence of education."
+        }
+      ]
+    }
+  }
 }

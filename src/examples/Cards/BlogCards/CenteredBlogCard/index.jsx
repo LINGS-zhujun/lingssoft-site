@@ -62,11 +62,22 @@ function CenteredBlogCard({ image, title, description, action }) {
         />
       </MKBox>
       <MKBox p={3} mt={-1} textAlign="center">
-        <MKTypography display="inline" variant="h5" textTransform="capitalize" fontWeight="regular" color={isDark ? "white" : "dark"}>
+        <MKTypography
+          display="inline"
+          variant="h5"
+          textTransform="capitalize"
+          fontWeight="regular"
+          color={isDark ? "white" : "dark"}
+        >
           {title}
         </MKTypography>
         <MKBox mt={1} mb={3}>
-          <MKTypography variant="body2" component="p" color={isDark ? "white" : "text"} opacity={isDark ? 0.8 : 1}>
+          <MKTypography
+            variant="body2"
+            component="p"
+            color={isDark ? "white" : "text"}
+            opacity={isDark ? 0.8 : 1}
+          >
             {description}
           </MKTypography>
         </MKBox>

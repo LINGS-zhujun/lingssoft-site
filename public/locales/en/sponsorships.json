@@ -1,38 +1,38 @@
 {
-    "hero": {
-        "title": "Become a Sponsor",
-        "subtitle": "Fuel Innovation & Growth",
-        "description": "Your support empowers us to build better open-source tools and sustainable software solutions. Join us in shaping the future.",
-        "cta": "Support Us"
-    },
-    "channels": {
-        "title": "Sponsorship Channels",
-        "description": "Choose the way that best fits your support style.",
-        "items": {
-            "individual": {
-                "title": "Individual",
-                "description": "Support us via GitHub Sponsors or Patreon. Great for fans and daily users."
-            },
-            "corporate": {
-                "title": "Corporate",
-                "description": "Perfect for companies using our tools. Get logo placement and priority support."
-            },
-            "partnership": {
-                "title": "Partnership",
-                "description": "Collaborate on long-term projects and strategic initiatives."
-            },
-            "one_time": {
-                "title": "One-time Donation",
-                "description": "Make a single contribution via PayPal or Crypto."
-            }
-        }
-    },
-    "donation": {
-        "title": "Direct Donation",
-        "description": "Directly support our operations with a donation.",
-        "bank": "Bank Transfer",
-        "crypto": "Crypto Wallet",
-        "copy": "Copy",
-        "copied": "Copied!"
+  "hero": {
+    "title": "Become a Sponsor",
+    "subtitle": "Fuel Innovation & Growth",
+    "description": "Your support empowers us to build better open-source tools and sustainable software solutions. Join us in shaping the future.",
+    "cta": "Support Us"
+  },
+  "channels": {
+    "title": "Sponsorship Channels",
+    "description": "Choose the way that best fits your support style.",
+    "items": {
+      "individual": {
+        "title": "Individual",
+        "description": "Support us via GitHub Sponsors or Patreon. Great for fans and daily users."
+      },
+      "corporate": {
+        "title": "Corporate",
+        "description": "Perfect for companies using our tools. Get logo placement and priority support."
+      },
+      "partnership": {
+        "title": "Partnership",
+        "description": "Collaborate on long-term projects and strategic initiatives."
+      },
+      "one_time": {
+        "title": "One-time Donation",
+        "description": "Make a single contribution via PayPal or Crypto."
+      }
     }
+  },
+  "donation": {
+    "title": "Direct Donation",
+    "description": "Directly support our operations with a donation.",
+    "bank": "Bank Transfer",
+    "crypto": "Crypto Wallet",
+    "copy": "Copy",
+    "copied": "Copied!"
+  }
 }

@@ -32,7 +32,14 @@
   "influence": {
     "title": "業界リーダーに学ぶ運用モデル",
     "description": "OpenAI、Palo Alto Networks、Coursera、Springer Natureなど信頼される技術リーダーの運用モデルを統合し、単一の戦略として提供します。",
-    "brands": ["OpenAI", "Palo Alto Networks", "CrowdStrike", "Coursera", "Springer Nature", "Elsevier"]
+    "brands": [
+      "OpenAI",
+      "Palo Alto Networks",
+      "CrowdStrike",
+      "Coursera",
+      "Springer Nature",
+      "Elsevier"
+    ]
   },
   "principles": {
     "title": "提供ポリシー",
@@ -47,7 +54,11 @@
       },
       {
         "title": "人を中心とした学習",
-        "points": ["個別最適化されたスキルマップ", "AIメンターとシミュレーション", "エンタープライズ資格制度"]
+        "points": [
+          "個別最適化されたスキルマップ",
+          "AIメンターとシミュレーション",
+          "エンタープライズ資格制度"
+        ]
       },
       {
         "title": "信頼される出版",

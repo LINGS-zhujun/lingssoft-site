@@ -33,7 +33,7 @@ detector.addDetector({
     const first = extractPathSegments()[0];
     return supported.includes(first || "") ? first : undefined;
   },
-  cacheUserLanguage() { },
+  cacheUserLanguage() {},
 });
 
 // Prefer CRA's PUBLIC_URL when available. We avoid referencing `import.meta` here
@@ -66,7 +66,7 @@ i18n
       "values",
       "solutions",
       "customdev",
-      "sponsorships"
+      "sponsorships",
     ],
     defaultNS: "common",
     backend: {

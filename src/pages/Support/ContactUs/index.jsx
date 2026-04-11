@@ -43,11 +43,7 @@ function ContactUs() {
   return (
     <>
       <MKBox position="fixed" top="0.5rem" width="100%">
-        <DefaultNavbar
-          routes={routes}
-          light={isDark}
-          sticky
-        />
+        <DefaultNavbar routes={routes} light={isDark} sticky />
       </MKBox>
       <Grid container spacing={3} alignItems="center">
         <Grid item xs={12} lg={6}>
@@ -100,7 +96,12 @@ function ContactUs() {
               </MKTypography>
             </MKBox>
             <MKBox p={3}>
-              <MKTypography variant="body2" color={isDark ? "white" : "text"} opacity={isDark ? 0.8 : 1} mb={3}>
+              <MKTypography
+                variant="body2"
+                color={isDark ? "white" : "text"}
+                opacity={isDark ? 0.8 : 1}
+                mb={3}
+              >
                 {t("subtitle")}
               </MKTypography>
               <MKBox width="100%" component="form" method="post" autoComplete="off">
@@ -109,7 +110,10 @@ function ContactUs() {
                     <MKInput
                       variant="standard"
                       label={t("form.fullName")}
-                      InputLabelProps={{ shrink: true, style: { color: isDark ? "white" : "inherit" } }}
+                      InputLabelProps={{
+                        shrink: true,
+                        style: { color: isDark ? "white" : "inherit" },
+                      }}
                       fullWidth
                       sx={{
                         "& .MuiInputBase-root": {
@@ -127,7 +131,10 @@ function ContactUs() {
                       type="email"
                       variant="standard"
                       label={t("form.email")}
-                      InputLabelProps={{ shrink: true, style: { color: isDark ? "white" : "inherit" } }}
+                      InputLabelProps={{
+                        shrink: true,
+                        style: { color: isDark ? "white" : "inherit" },
+                      }}
                       fullWidth
                       sx={{
                         "& .MuiInputBase-root": {
@@ -145,7 +152,10 @@ function ContactUs() {
                       variant="standard"
                       label={t("form.message")}
                       placeholder={t("form.placeholder")}
-                      InputLabelProps={{ shrink: true, style: { color: isDark ? "white" : "inherit" } }}
+                      InputLabelProps={{
+                        shrink: true,
+                        style: { color: isDark ? "white" : "inherit" },
+                      }}
                       multiline
                       fullWidth
                       rows={6}

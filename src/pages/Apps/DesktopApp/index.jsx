@@ -44,11 +44,7 @@ function DesktopApp() {
 
   return (
     <>
-      <DefaultNavbar
-        routes={routes}
-        transparent
-        light={isDark}
-      />
+      <DefaultNavbar routes={routes} transparent light={isDark} />
       <MKBox bgColor={isDark ? "dark" : "white"}>
         <MKBox
           minHeight="50vh"

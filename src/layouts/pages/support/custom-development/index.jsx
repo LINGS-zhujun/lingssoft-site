@@ -17,5 +17,5 @@ Coded by www.creative-tim.com
 import CustomDevelopment from "pages/Support/CustomDevelopment";
 
 export default function CustomDevelopmentPage() {
-    return <CustomDevelopment />;
+  return <CustomDevelopment />;
 }

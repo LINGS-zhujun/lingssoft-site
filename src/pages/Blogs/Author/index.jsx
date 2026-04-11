@@ -42,11 +42,7 @@ function Author() {
 
   return (
     <>
-      <DefaultNavbar
-        routes={routes}
-        transparent
-        light
-      />
+      <DefaultNavbar routes={routes} transparent light />
       <MKBox bgColor={isDark ? "dark" : "white"}>
         <MKBox
           minHeight="25rem"
@@ -69,7 +65,9 @@ function Author() {
             mx: { xs: 2, lg: 3 },
             mt: -8,
             mb: 4,
-            backgroundColor: isDark ? ({ palette: { dark } }) => dark.main : ({ palette: { white }, functions: { rgba } }) => rgba(white.main, 0.8),
+            backgroundColor: isDark
+              ? ({ palette: { dark } }) => dark.main
+              : ({ palette: { white }, functions: { rgba } }) => rgba(white.main, 0.8),
             backdropFilter: "saturate(200%) blur(30px)",
             boxShadow: ({ boxShadows: { xxl } }) => xxl,
           }}

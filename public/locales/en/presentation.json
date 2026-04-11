@@ -32,26 +32,49 @@
   "influence": {
     "title": "Influence from industry leaders",
     "description": "LINGSSOFT synthesizes proven operating models from the technology leaders our clients trust: OpenAI for AI stewardship, Palo Alto Networks for Zero Trust, Coursera for talent transformation, and Springer Nature for global knowledge distribution. We bring these patterns together in a unified strategy.",
-    "brands": ["OpenAI", "Palo Alto Networks", "CrowdStrike", "Coursera", "Springer Nature", "Elsevier"]
+    "brands": [
+      "OpenAI",
+      "Palo Alto Networks",
+      "CrowdStrike",
+      "Coursera",
+      "Springer Nature",
+      "Elsevier"
+    ]
   },
   "principles": {
     "title": "Delivery principles",
     "items": [
       {
         "title": "Model Integrity",
-        "points": ["Bias audits & lineage tracking", "Synthetic data governance", "Continuous evaluation"]
+        "points": [
+          "Bias audits & lineage tracking",
+          "Synthetic data governance",
+          "Continuous evaluation"
+        ]
       },
       {
         "title": "Adaptive Defense",
-        "points": ["Identity-first protection", "Runtime anomaly detection", "Secure DevSecOps pipelines"]
+        "points": [
+          "Identity-first protection",
+          "Runtime anomaly detection",
+          "Secure DevSecOps pipelines"
+        ]
       },
       {
         "title": "Human-Centered Learning",
-        "points": ["Personalized skill graphs", "AI mentors & simulations", "Enterprise credentialing"]
+        "points": [
+          "Personalized skill graphs",
+          "AI mentors & simulations",
+          "Enterprise credentialing"
+        ]
       },
       {
         "title": "Trusted Publishing",
-        "points": ["Structured content supply chain", "Generative editorial workflows", "Multilingual delivery"]
+        "points": [
+          "Structured content supply chain",
+          "Generative editorial workflows",
+          "Multilingual delivery"
+        ]
       }
     ]
   },
@@ -62,22 +85,38 @@
       {
         "title": "AI Foundry",
         "subtitle": "Discovery to deployment in 10 weeks",
-        "bullets": ["Domain adaptation labs", "Applied research partnerships", "Ethics & compliance reviews"]
+        "bullets": [
+          "Domain adaptation labs",
+          "Applied research partnerships",
+          "Ethics & compliance reviews"
+        ]
       },
       {
         "title": "SecureOps Command",
         "subtitle": "360º visibility across cloud, edge, and workplace",
-        "bullets": ["Attack surface analytics", "Autonomous incident response", "Executive threat briefings"]
+        "bullets": [
+          "Attack surface analytics",
+          "Autonomous incident response",
+          "Executive threat briefings"
+        ]
       },
       {
         "title": "Learning Studio",
         "subtitle": "Continuous talent transformation",
-        "bullets": ["Immersive courseware authoring", "Adaptive onboarding journeys", "Skill impact dashboards"]
+        "bullets": [
+          "Immersive courseware authoring",
+          "Adaptive onboarding journeys",
+          "Skill impact dashboards"
+        ]
       },
       {
         "title": "Publishing Cloud",
         "subtitle": "Intelligent knowledge distribution",
-        "bullets": ["AI-assisted editorial suites", "Semantic search & recommendations", "Global content localization"]
+        "bullets": [
+          "AI-assisted editorial suites",
+          "Semantic search & recommendations",
+          "Global content localization"
+        ]
       }
     ]
   },

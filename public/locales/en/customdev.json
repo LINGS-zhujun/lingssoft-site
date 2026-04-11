@@ -1,64 +1,64 @@
 {
-    "hero": {
-        "title": "Custom Development",
-        "subtitle": "Transform Your Ideas into Reality",
-        "description": "We provide tailored software solutions that fit your unique business needs. From initial consultation to final deployment, we are your partners in digital transformation.",
-        "cta": "Start Your Project"
-    },
-    "process": {
-        "title": "Our Development Process",
-        "description": "A transparent and agile workflow ensuring high-quality results.",
-        "steps": {
-            "consultation": {
-                "title": "Consultation",
-                "description": "Understanding your requirements and business goals."
-            },
-            "planning": {
-                "title": "Planning",
-                "description": "Defining the roadmap, architecture, and specifications."
-            },
-            "design": {
-                "title": "Design",
-                "description": "Creating intuitive UI/UX and visual prototypes."
-            },
-            "development": {
-                "title": "Development",
-                "description": "Building the solution using robust technologies."
-            },
-            "testing": {
-                "title": "Testing",
-                "description": "Rigorous QA to ensure a bug-free experience."
-            },
-            "deployment": {
-                "title": "Deployment",
-                "description": "Launching your product to the world."
-            },
-            "maintenance": {
-                "title": "Maintenance",
-                "description": "Ongoing support and updates."
-            }
-        }
-    },
-    "whyChooseUs": {
-        "title": "Why Choose Us?",
-        "description": "We deliver excellence through a combination of technical expertise and deep industry knowledge.",
-        "items": {
-            "global": {
-                "title": "Global Reach",
-                "description": "Serving clients worldwide with scalable solutions."
-            },
-            "value": {
-                "title": "High Value",
-                "description": "Cost-effective development without compromising quality."
-            },
-            "innovative": {
-                "title": "Innovative",
-                "description": "Using cutting-edge technologies to stay ahead."
-            },
-            "agile": {
-                "title": "Agile Team",
-                "description": "Flexible and responsive to your changing needs."
-            }
-        }
+  "hero": {
+    "title": "Custom Development",
+    "subtitle": "Transform Your Ideas into Reality",
+    "description": "We provide tailored software solutions that fit your unique business needs. From initial consultation to final deployment, we are your partners in digital transformation.",
+    "cta": "Start Your Project"
+  },
+  "process": {
+    "title": "Our Development Process",
+    "description": "A transparent and agile workflow ensuring high-quality results.",
+    "steps": {
+      "consultation": {
+        "title": "Consultation",
+        "description": "Understanding your requirements and business goals."
+      },
+      "planning": {
+        "title": "Planning",
+        "description": "Defining the roadmap, architecture, and specifications."
+      },
+      "design": {
+        "title": "Design",
+        "description": "Creating intuitive UI/UX and visual prototypes."
+      },
+      "development": {
+        "title": "Development",
+        "description": "Building the solution using robust technologies."
+      },
+      "testing": {
+        "title": "Testing",
+        "description": "Rigorous QA to ensure a bug-free experience."
+      },
+      "deployment": {
+        "title": "Deployment",
+        "description": "Launching your product to the world."
+      },
+      "maintenance": {
+        "title": "Maintenance",
+        "description": "Ongoing support and updates."
+      }
     }
+  },
+  "whyChooseUs": {
+    "title": "Why Choose Us?",
+    "description": "We deliver excellence through a combination of technical expertise and deep industry knowledge.",
+    "items": {
+      "global": {
+        "title": "Global Reach",
+        "description": "Serving clients worldwide with scalable solutions."
+      },
+      "value": {
+        "title": "High Value",
+        "description": "Cost-effective development without compromising quality."
+      },
+      "innovative": {
+        "title": "Innovative",
+        "description": "Using cutting-edge technologies to stay ahead."
+      },
+      "agile": {
+        "title": "Agile Team",
+        "description": "Flexible and responsive to your changing needs."
+      }
+    }
+  }
 }

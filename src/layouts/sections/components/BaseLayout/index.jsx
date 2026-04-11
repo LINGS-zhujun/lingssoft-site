@@ -36,11 +36,7 @@ function BaseLayout({ breadcrumb, title, children }) {
   return (
     <MKBox display="flex" flexDirection="column" bgColor="white" minHeight="100vh">
       <MKBox bgColor="white" shadow="sm" py={0.25}>
-        <DefaultNavbar
-          routes={routes}
-          transparent
-          relative
-        />
+        <DefaultNavbar routes={routes} transparent relative />
       </MKBox>
       <Container sx={{ mt: 6 }}>
         <Grid container item xs={12} flexDirection="column" justifyContent="center" mx="auto">
